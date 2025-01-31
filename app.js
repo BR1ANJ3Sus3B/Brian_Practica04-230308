@@ -33,6 +33,26 @@ app.get("/status", (req, res) => {
     });
 });
 
+// Ruta para obtener todas las sesiones activas
+app.get("/Sessions", (req, res) => {
+    const activeSessions = Array.from(sessions.values()).map((session) => {
+        const inactivity = calculateInactivityTime(session.lastAccesed);
+
+        return {
+            sessionId: session.sessionId,
+            email: session.email,
+            nickname: session.nickname,
+            serverIP: session.serverInfo.ip,
+            serverMAC: session.serverInfo.mac,
+            createdAt: session.createdAt,
+            lastAccesed: session.lastAccesed,
+            inactivityDuration: inactivity.formatted,
+        };
+    });
+
+    res.status(200).json(activeSessions);
+});
+
 
 // Servidor en escucha
 app.listen(PORT, () => {
