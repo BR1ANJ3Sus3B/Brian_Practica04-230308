@@ -9,6 +9,21 @@ const sessions = new Map();
 const app = express();
 const PORT = 3000;
 
+// Ruta para cerrar sesión
+app.post("/logout", (req, res) => {
+    const { sessionId } = req.body;
+    if (!sessionId || !sessions.has(sessionId)) {
+        return res.status(404).json({ message: "No se ha encontrado una sesión activa." });
+    }
+    sessions.delete(sessionId);
+    req.session.destroy(err => {
+        if (err) {
+            return res.status(500).json({ message: 'Error al cerrar sesión' });
+        }
+        res.status(200).json({ message: "Logout exitoso" });
+    });
+});
+
 
 // Ruta para actualizar sesión
 app.put("/update", (req, res) => {
