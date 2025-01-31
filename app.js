@@ -9,6 +9,22 @@ const sessions = new Map();
 const app = express();
 const PORT = 3000;
 
+
+// Ruta para actualizar sesión
+app.put("/update", (req, res) => {
+    const { sessionId } = req.body;
+    if (!sessionId || !sessions.has(sessionId)) {
+        return res.status(404).json({ message: "No existe una sesión activa" });
+    }
+
+    const sessionData = sessions.get(sessionId);
+    sessionData.lastAccesed = getCDMXDateTime();
+    sessions.set(sessionId, sessionData);
+    req.session.userSession = sessionData;
+
+    res.status(200).json({ message: "Sesión actualizada correctamente", session: sessionData });
+});
+
 // Ruta para obtener el estado de la sesión
 app.get("/status", (req, res) => {
     const { sessionId } = req.query;
