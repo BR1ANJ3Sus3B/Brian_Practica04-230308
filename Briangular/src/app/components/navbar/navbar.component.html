@@ -1,0 +1,45 @@
+<nav class="navbar">
+  <div class="navbar-container">
+    <!-- Sección izquierda: Logo y enlaces -->
+    <button 
+    class="sidebar-toggle-btn" 
+    (click)="toggleSidebar()"> <!-- Este botón controla la visibilidad del sidebar -->
+    <i class="fas fa-bars"></i> <!-- Icono de barras (hamburger) -->
+  </button>
+    <div class="navbar-left">
+
+      <a href="#" class="brand">MiApp</a>
+      <ul class="nav-menu">
+        <li><a href="#">Inicio</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle">Ejercicios</a>
+          <!-- Menú desplegable para ejercicios -->
+          <ul class="dropdown-menu">
+            <li><a (click)="selectExercise('Ejercicio 01')">Ejercicio 01</a></li>
+            <li><a (click)="selectExercise('Ejercicio 02')">Ejercicio 02</a></li>
+            <li><a (click)="selectExercise('Ejercicio 03')">Ejercicio 03</a></li>
+            <li><a (click)="selectExercise('Ejercicio 04')">Ejercicio 04</a></li>
+            <li><a (click)="selectExercise('Ejercicio 05')">Ejercicio 05</a></li>
+            <li><a (click)="selectExercise('Ejercicio 06')">Ejercicio 06</a></li>
+            <li><a (click)="selectExercise('Ejercicio 07')">Ejercicio 07</a></li>
+            <li><a (click)="selectExercise('Ejercicio 08')">Ejercicio 08</a></li>
+            <li><a (click)="selectExercise('Ejercicio 09')">Ejercicio 09</a></li>
+            <li><a (click)="selectExercise('Ejercicio 10')">Ejercicio 10</a></li>
+            <li><a (click)="selectExercise('Ejercicio 11')">Ejercicio 11</a></li>
+            <li><a (click)="selectExercise('Ejercicio 12')">Ejercicio 12</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Contacto</a></li>
+        <li><a href="#">Acerca de</a></li>
+      </ul>
+    </div>
+    <!-- Sección derecha: Información del usuario y logout -->
+    <div class="navbar-right">
+      <div class="user-info">
+        <span class="user-name">Jonathan Baldemar</span>
+        <img src="ruta-imagen-usuario.jpg" alt="Perfil de usuario" class="user-image">
+      </div>
+      <button class="logout-btn" (click)="onLogout()">Logout</button>
+    </div>
+  </div>
+</nav>

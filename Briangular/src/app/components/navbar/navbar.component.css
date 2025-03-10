@@ -1,0 +1,140 @@
+/* Estilo base para la navbar fija */
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #1A090D; /* Color principal oscuro */
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+/* Contenedor interno para distribuir contenidos */
+.navbar-container {
+  width: 100%;
+  max-width: 1600px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Sección izquierda: logo y menú */
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+/* Estilo para la marca o logo */
+.brand {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ACE894; /* Color de acento */
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+/* Menú de navegación */
+.nav-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-menu li {
+  margin-right: 15px;
+  position: relative;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: #A8BA9A; /* Segundo color de acento */
+  padding: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  border-radius: 4px;
+}
+
+.nav-menu a:hover {
+  background-color: #4A314D; /* Color secundario */
+  color: #ACE894;
+}
+
+/* Dropdown para ejercicios */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 35px;
+  left: 0;
+  background-color: #1A090D;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  list-style: none;
+  padding: 10px 0;
+  border-radius: 4px;
+}
+
+.dropdown-menu li {
+  margin: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 20px;
+  color: #A8BA9A;
+}
+
+.dropdown-menu a:hover {
+  background-color: #4A314D;
+  color: #ACE894;
+}
+
+/* Sección derecha: usuario y logout */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+}
+
+.user-image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 10px;
+  border: 2px solid #ACE894;
+}
+
+.user-name {
+  font-weight: 500;
+  color: #A8BA9A;
+  margin-right: 20px;
+}
+
+/* Botón de logout */
+.logout-btn {
+  background: none;
+  border: 1px solid #ACE894;
+  color: #ACE894;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.logout-btn:hover {
+  background-color: #ACE894;
+  color: #1A090D;
+}

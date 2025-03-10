@@ -1,71 +1,24 @@
-/* General Styles */
-body {
-    font-family: 'Arial', sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 0;
-    color: #333;
-  }
-  
-  h1 {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 36px;
-    color: #4CAF50;
-  }
-  
-  .author {
-    text-align: center;
-    font-size: 18px;
-    color: #555;
-  }
-  
-  .divider {
-    border: 1px solid #ccc;
-    margin: 20px 0;
-  }
-  
-  .exercise-title {
-    font-size: 24px;
-    color: #4CAF50;
-    margin-top: 20px;
-    font-weight: bold;
-    text-align: center;
-  }
-  
-  /* App component styling */
-  app-ejercicio01,
-  app-ejercicio02,
-  app-ejercicio03,
-  app-ejercicio04,
-  app-ejercicio05,
-  app-ejercicio06 {
-    display: block;
-    margin: 20px auto;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 80%;
-  }
-  
-  /* Media Queries */
-  @media (max-width: 768px) {
-    h1 {
-      font-size: 28px;
-    }
-  
-    .exercise-title {
-      font-size: 20px;
-    }
-  
-    app-ejercicio01,
-    app-ejercicio02,
-    app-ejercicio03,
-    app-ejercicio04,
-    app-ejercicio05,
-    app-ejercicio06 {
-      width: 95%;
-    }
-  }
-  
+/* app.component.css */
+.container {
+  display: flex;
+  height: 95vh; /* 95% del alto de la pantalla, el navbar ocupará el 5% superior */
+  transition: all 0.3s ease;
+}
+
+.container app-sidebar {
+  flex: 0 0 15%;
+  transition: all 0.3s ease;
+}
+
+.container app-page-container {
+  flex: 0 0 85%;
+  transition: all 0.3s ease;
+}
+
+.sidebar-collapsed app-sidebar {
+  display: none;
+}
+
+.sidebar-collapsed app-page-container {
+  flex: 0 0 100%;
+}

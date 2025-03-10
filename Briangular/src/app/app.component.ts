@@ -1,18 +1,44 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-import { Ejercicio01Component } from './ejercicio01/ejercicio01.component';
-import { Ejercicio02Component } from './ejercicio02/ejercicio02.component';
-import { Ejercicio03Component } from "./ejercicio03/ejercicio03.component";
-import { Ejercicio06Component } from './ejercicio06/ejercicio06.component';
-import { Ejercicio04Component } from './ejercicio04/ejercicio04.component';
-import { Ejercicio05Component } from './ejercicio05/ejercicio05.component';
+import { Router } from '@angular/router';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { SidebarComponent } from './components/sidebar/sidebar.component';
+import { PageContainerComponent } from './components/page-container/page-container.component';
+import { NgIf } from '@angular/common';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Ejercicio01Component,Ejercicio02Component,Ejercicio03Component,Ejercicio06Component,Ejercicio04Component,Ejercicio05Component],
+  standalone: true,
+  imports: [
+    NavbarComponent,
+    SidebarComponent,
+    PageContainerComponent,
+    NgIf
+  ],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Brian Jesus mendoza Marquez';
+  title = 'ManualEjercicios_Anglar_230410';
+
+  isSidebarCollapsed = false;
+  currentExercise: string = '';
+  isLoggedIn: boolean = false; // Establecer a false inicialmente
+
+  constructor(private router: Router) {}
+
+  toggleSidebar() {
+    this.isSidebarCollapsed = !this.isSidebarCollapsed;
+  }
+
+  onExerciseSelected(exerciseName: string) {
+    this.currentExercise = exerciseName;
+  }
+
+  logout() {
+    this.isLoggedIn = false; // Cambiar a false al hacer logout
+  }
+
+  login() {
+    this.isLoggedIn = true; // Cambiar a true al hacer login
+  }
 }

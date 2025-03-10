@@ -1,0 +1,28 @@
+/* Sidebar: se fija al lado izquierdo y utiliza la misma paleta que el navbar */
+.sidebar {
+  background-color: #1A090D;  /* Fondo principal */
+  color: #A8BA9A;             /* Texto en tono secundario */
+  width: 250px;               /* Ancho fijo para la estructura */
+  height: 100vh;             /* Fijo en la pantalla */
+  top: 20;
+  left: 0;
+  padding: 40px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+
+/* Encabezado del sidebar */
+.sidebar-header h3 {
+  margin: 0 0 15px;
+  color: #ACE894;             /* Uso de color de acento para el título */
+  font-size: 1.4em;
+}
+
+/* Contenido del sidebar */
+.sidebar-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}

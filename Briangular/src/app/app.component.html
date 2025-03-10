@@ -1,30 +1,23 @@
-<h1>MANUAL DE PRÁCTICAS</h1>
-<p class="author">Elaborado por: <strong>Brian Jesus Mendoza Marquez</strong></p>
+<!-- app.component.html -->
+<!-- Mostrar navbar solo si se está logueado -->
+<div *ngIf="isLoggedIn">
+  <app-navbar 
+    (toggle)="toggleSidebar()"
+    (logout)="logout()"
+    (exerciseSelected)="onExerciseSelected($event)">
+  </app-navbar>
+</div>
 
-<img src="Briangular/src/assets/image.png" alt="Logo" class="header-image" />
+<div class="container" [class.sidebar-collapsed]="isSidebarCollapsed">
+  <!-- Mostrar sidebar solo si se está logueado -->
+  <app-sidebar 
+    *ngIf="isLoggedIn && !isSidebarCollapsed"
+    [selectedExercise]="currentExercise">
+  </app-sidebar>
 
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 1:</h2>
-<app-ejercicio01></app-ejercicio01>
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 2:</h2>
-<app-ejercicio02></app-ejercicio02>
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 3:</h2>
-<app-ejercicio03></app-ejercicio03>
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 4:</h2>
-<app-ejercicio04></app-ejercicio04>
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 5:</h2>
-<app-ejercicio05></app-ejercicio05>
-<hr class="divider"/>
-
-<h2 class="exercise-title">Ejercicio 6:</h2>
-<app-ejercicio06></app-ejercicio06>
-<hr class="divider"/>
+  <app-page-container 
+    [selectedExercise]="currentExercise"
+    [isLoggedIn]="isLoggedIn"
+    (login)="login()">
+  </app-page-container>
+</div>
