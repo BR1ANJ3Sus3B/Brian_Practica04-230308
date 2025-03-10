@@ -1,9 +1,14 @@
-/* Estilo base para la navbar fija */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .navbar {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #1A090D; /* Color principal oscuro */
+  background-color: #273c3c;
   color: #fff;
   display: flex;
   align-items: center;
@@ -13,7 +18,6 @@
   z-index: 1000;
 }
 
-/* Contenedor interno para distribuir contenidos */
 .navbar-container {
   width: 100%;
   max-width: 1600px;
@@ -22,22 +26,19 @@
   align-items: center;
 }
 
-/* Sección izquierda: logo y menú */
 .navbar-left {
   display: flex;
   align-items: center;
 }
 
-/* Estilo para la marca o logo */
 .brand {
   font-size: 1.5em;
   font-weight: bold;
-  color: #ACE894; /* Color de acento */
+  color: #94edea;
   margin-right: 20px;
   text-decoration: none;
 }
 
-/* Menú de navegación */
 .nav-menu {
   list-style: none;
   display: flex;
@@ -52,18 +53,17 @@
 
 .nav-menu a {
   text-decoration: none;
-  color: #A8BA9A; /* Segundo color de acento */
+  color: #A8BA9A;
   padding: 8px;
   transition: background-color 0.3s ease, color 0.3s ease;
   border-radius: 4px;
 }
 
 .nav-menu a:hover {
-  background-color: #4A314D; /* Color secundario */
-  color: #ACE894;
+  background-color: #7ce4d4;
+  color: #78cfec;
 }
 
-/* Dropdown para ejercicios */
 .dropdown:hover .dropdown-menu {
   display: block;
 }
@@ -91,11 +91,10 @@
 }
 
 .dropdown-menu a:hover {
-  background-color: #4A314D;
+  background-color: #54e4e1;
   color: #ACE894;
 }
 
-/* Sección derecha: usuario y logout */
 .navbar-right {
   display: flex;
   align-items: center;
@@ -123,11 +122,10 @@
   margin-right: 20px;
 }
 
-/* Botón de logout */
 .logout-btn {
   background: none;
-  border: 1px solid #ACE894;
-  color: #ACE894;
+  border: 1px solid #94cde8;
+  color: #2fded8;
   padding: 8px 12px;
   border-radius: 4px;
   cursor: pointer;
@@ -135,6 +133,6 @@
 }
 
 .logout-btn:hover {
-  background-color: #ACE894;
+  background-color: #42d6d8;
   color: #1A090D;
 }

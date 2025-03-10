@@ -8,7 +8,7 @@ import { NgIf } from '@angular/common';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
+  imports:[
     NavbarComponent,
     SidebarComponent,
     PageContainerComponent,
@@ -18,7 +18,7 @@ import { NgIf } from '@angular/common';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ManualEjercicios_Anglar_230410';
+  title = 'ManualEjercicios_Anglar_230308';
 
   isSidebarCollapsed = false;
   currentExercise: string = '';

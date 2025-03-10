@@ -8,18 +8,18 @@
     <!-- Si el usuario está logueado, se muestra el contenido -->
     <div *ngIf="isLoggedIn" class="exercise-container">
       <ng-container [ngSwitch]="exerciseName">
-        <app-ejercicio-01 *ngSwitchCase="'Ejercicio 01'"></app-ejercicio-01>
-        <app-ejercicio-02 *ngSwitchCase="'Ejercicio 02'"></app-ejercicio-02>
-        <app-ejercicio-03 *ngSwitchCase="'Ejercicio 03'"></app-ejercicio-03>
-        <app-ejercicio-04 *ngSwitchCase="'Ejercicio 04'"></app-ejercicio-04>
-        <app-ejercicio-05 *ngSwitchCase="'Ejercicio 05'"></app-ejercicio-05>
-        <app-ejercicio-06 *ngSwitchCase="'Ejercicio 06'"></app-ejercicio-06>
-        <app-ejercicio-07 *ngSwitchCase="'Ejercicio 07'"></app-ejercicio-07>
-        <app-ejercicio-08 *ngSwitchCase="'Ejercicio 08'"></app-ejercicio-08>
-        <app-ejercicio-09 *ngSwitchCase="'Ejercicio 09'"></app-ejercicio-09>
-        <app-ejercicio-10 *ngSwitchCase="'Ejercicio 10'"></app-ejercicio-10>
-        <app-ejercicio-11 *ngSwitchCase="'Ejercicio 11'"></app-ejercicio-11>
-        <app-ejercicio-12 *ngSwitchCase="'Ejercicio 12'"></app-ejercicio-12>
+        <app-ejercicio01 *ngSwitchCase="'Ejercicio 01'"></app-ejercicio01>
+        <app-ejercicio02 *ngSwitchCase="'Ejercicio 02'"></app-ejercicio02>
+        <app-ejercicio03 *ngSwitchCase="'Ejercicio 03'"></app-ejercicio03>
+        <app-ejercicio04 *ngSwitchCase="'Ejercicio 04'"></app-ejercicio04>
+        <app-ejercicio05 *ngSwitchCase="'Ejercicio 05'"></app-ejercicio05>
+        <app-ejercicio06 *ngSwitchCase="'Ejercicio 06'"></app-ejercicio06>
+        <app-ejercicio07 *ngSwitchCase="'Ejercicio 07'"></app-ejercicio07>
+        <app-ejercicio08 *ngSwitchCase="'Ejercicio 08'"></app-ejercicio08>
+        <app-ejercicio09 *ngSwitchCase="'Ejercicio 09'"></app-ejercicio09>
+        <app-ejercicio10 *ngSwitchCase="'Ejercicio 10'"></app-ejercicio10>
+        <app-ejercicio11 *ngSwitchCase="'Ejercicio 11'"></app-ejercicio11>
+    
         
         <!-- Mensaje cuando no hay ejercicio seleccionado -->
         <div *ngSwitchDefault class="no-exercise">

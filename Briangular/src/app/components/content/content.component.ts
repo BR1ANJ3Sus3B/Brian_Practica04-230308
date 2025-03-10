@@ -1,4 +1,3 @@
-
 import { Component, Input, Output, EventEmitter } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Ejercicio01Component } from '../../ejercicio01/ejercicio01.component';
@@ -12,12 +11,14 @@ import { Ejercicio08Component } from '../../ejercicio08/ejercicio08.component';
 import { Ejercicio09Component } from '../../ejercicio09/ejercicio09.component';
 import { Ejercicio10Component } from '../../ejercicio10/ejercicio10.component';
 import { Ejercicio11Component } from '../../ejercicio11/ejercicio11.component';
-import { Ejercicio12Component } from '../../ejercicio12/ejercicio12.component';
-import { LoginComponent } from "../login/login.component";
+
+import { LoginComponent } from '../login/login.component';
+
 @Component({
   selector: 'app-content',
   standalone: true,
-  imports: [ CommonModule,
+  imports: [
+    CommonModule,
     Ejercicio01Component,
     Ejercicio02Component,
     Ejercicio03Component,
@@ -29,10 +30,11 @@ import { LoginComponent } from "../login/login.component";
     Ejercicio09Component,
     Ejercicio10Component,
     Ejercicio11Component,
-    Ejercicio12Component,
-    LoginComponent],
-  templateUrl:'./content.component.html',
-  styleUrl: './content.component.css'
+    
+    LoginComponent
+  ],
+  templateUrl: './content.component.html',
+  styleUrls: ['./content.component.css']  // <-- CORREGIDO
 })
 export class ContentComponent {
   @Input() exerciseName: string = '';
@@ -42,5 +44,5 @@ export class ContentComponent {
   // Método para manejar el clic de login
   loginClick() {
     this.login.emit(); 
-}
+  }
 }

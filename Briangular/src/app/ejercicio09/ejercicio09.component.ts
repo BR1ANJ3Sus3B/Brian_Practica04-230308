@@ -7,10 +7,10 @@ import { Component , Output, EventEmitter} from '@angular/core';
   styleUrl: './ejercicio09.component.css'
 })
 export class Ejercicio09Component {
-  @Output() itemAdded = new EventEmitter<void>(); // Emisor de eventos
+  @Output() addItemEvent = new EventEmitter<string>(); 
 
   addItem() {
-    this.itemAdded.emit(); // Emite el evento cuando se hace clic en el botón
-  }
+    this.addItemEvent.emit('😺'); 
+}
 }
 

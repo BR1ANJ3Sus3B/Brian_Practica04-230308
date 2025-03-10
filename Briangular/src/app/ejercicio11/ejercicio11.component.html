@@ -1,1 +1,12 @@
-<p>ejercicio11 works!</p>
+<p>Username: {{ username }}</p>
+<p>Preferred Framework:</p>
+<ul>
+  <li>
+    Static Image:
+    <img ngSrc="/Vida.jpeg" alt="Angular logo" width="32" height="32" />
+  </li>
+  <li>
+    Dynamic Image:
+    <img ngSrc="/Vida.jpeg" [alt]="logoAlt" width="32" height="32" />
+  </li>
+</ul>

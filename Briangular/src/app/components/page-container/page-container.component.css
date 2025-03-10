@@ -14,7 +14,7 @@
 
 /* Breadcrumb fijo en la parte superior del área de contenido */
 .breadcrumb-container {
-  background-color: #4A314D; /* Color secundario oscuro */
+  background-color: #40887a; /* Color secundario oscuro */
   padding: 10px 20px;
   color: #ACE894;
   position: sticky;
@@ -30,7 +30,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #6B6570; /* Fondo gris medio para el login */
+  background-color: #16c4b3; /* Fondo gris medio para el login */
   height: 100vh; /* El login ocupa toda la altura de la pantalla */
   position: absolute; /* Asegura que el login ocupe toda la pantalla y se "desaparezca" cuando el usuario está logueado */
   width: 100%;

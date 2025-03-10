@@ -7,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrl: './ejercicio04.component.css'
 })
 export class Ejercicio04Component {
-  isServerRunning = true; 
+  isServerRunning = false; 
 }

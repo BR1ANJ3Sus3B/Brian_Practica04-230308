@@ -1,24 +1,108 @@
 /* app.component.css */
 .container {
   display: flex;
-  height: 95vh; /* 95% del alto de la pantalla, el navbar ocupará el 5% superior */
+  height: 100vh; /* 100% del alto de la pantalla */
   transition: all 0.3s ease;
+  overflow: hidden;  /* Asegura que los contenidos que excedan el ancho del contenedor no se muestren */
 }
 
+/* Sidebar */
 .container app-sidebar {
-  flex: 0 0 15%;
+  flex: 0 0 250px; /* Sidebar ocupa un 25% del ancho */
+  background-color: #2C3E50; /* Fondo oscuro para el sidebar */
+  color: #fff;
   transition: all 0.3s ease;
+  padding-top: 20px;  /* Padding superior */
 }
 
-.container app-page-container {
-  flex: 0 0 85%;
-  transition: all 0.3s ease;
+.container app-sidebar .sidebar-header h3 {
+  font-size: 1.6em;
+  color: #3498DB;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
+/* Si el sidebar está colapsado */
 .sidebar-collapsed app-sidebar {
-  display: none;
+  flex: 0 0 70px;  /* Sidebar ocupa menos espacio */
+  overflow: hidden;
+}
+
+.sidebar-collapsed app-sidebar .sidebar-header h3 {
+  display: none;  /* El título se oculta cuando el sidebar está colapsado */
+}
+
+/* El contenido de la página */
+.container app-page-container {
+  flex: 0 0 75%;  /* El contenido ocupa el 75% restante */
+  transition: all 0.3s ease;
+  padding: 20px;
+  background-color: #ecf0f1;  /* Fondo claro para el contenido */
 }
 
 .sidebar-collapsed app-page-container {
-  flex: 0 0 100%;
+  flex: 0 0 100%;  /* El contenido ocupa todo el ancho cuando el sidebar está colapsado */
+}
+
+.container app-page-container h1 {
+  color: #2C3E50;
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.container app-page-container p {
+  font-size: 1.1em;
+  color: #34495E;
+  line-height: 1.7;
+}
+
+/* Transición suave cuando el sidebar está colapsado */
+.container app-sidebar, .container app-page-container {
+  transition: all 0.3s ease-in-out;
+}
+
+/* Botón para alternar el sidebar (por ejemplo, en la parte superior del contenido) */
+.toggle-sidebar-btn {
+  display: none;  /* Inicialmente oculto */
+  background-color: #3498DB;
+  color: white;
+  border: none;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-sidebar-btn:hover {
+  background-color: #1F77B4; /* Azul más oscuro */
+}
+
+/* Estilo del contenedor de los elementos en el sidebar */
+.container app-sidebar .sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+
+/* Si el sidebar está colapsado, mostrar el icono de menú */
+.sidebar-collapsed .toggle-sidebar-btn {
+  display: inline-block;  /* Aparece el botón para mostrar el sidebar */
+}
+
+/* Responsive para pantallas pequeñas */
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column; /* Apilar los elementos verticalmente */
+  }
+
+  .container app-sidebar {
+    flex: 0 0 50px;  /* Sidebar más pequeño en pantallas pequeñas */
+  }
+
+  .container app-page-container {
+    flex: 0 0 100%;  /* El contenido ocupa todo el ancho */
+  }
 }
