@@ -1,0 +1,45 @@
+/* Estilo del breadcrumb */
+.breadcrumb {
+  background-color: #34495E; /* Un gris azulado más elegante */
+  color: #BDC3C7;            /* Texto claro pero suave para contraste */
+  padding: 14px 30px;
+  border-radius: 8px;        /* Bordes más suaves para un aspecto más moderno */
+  font-size: 1.2em;
+  box-shadow: 0 6px 12px rgba(45, 188, 143, 0.25); /* Sombra más sutil para profundidad */
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Distribuye los elementos a los lados */
+}
+
+/* Estilo de los elementos dentro del breadcrumb */
+.breadcrumb p {
+  margin: 0;
+  display: inline-block;
+  font-weight: 500; /* Peso de fuente más equilibrado */
+  font-family: 'Roboto', sans-serif; /* Fuente moderna y clara */
+}
+
+/* Resaltar el elemento actual */
+.breadcrumb-highlight {
+  font-weight: 700; /* Negrita para destacar el enlace actual */
+  color: #E67E22;    /* Naranja suave para un toque cálido */
+}
+
+/* Estilo de los enlaces dentro del breadcrumb */
+.breadcrumb a {
+  color: #3498DB; /* Azul claro para los enlaces */
+  text-decoration: none;
+  transition: color 0.3s ease, transform 0.2s ease;
+}
+
+.breadcrumb a:hover {
+  color: #1ABC9C; /* Verde suave cuando se pasa el ratón */
+  transform: scale(1.05); /* Efecto de escala para hacer el enlace más interactivo */
+}
+
+/* Estilo del icono dentro del breadcrumb (si tienes iconos) */
+.breadcrumb i {
+  color: #BDC3C7; /* Color del icono claro */
+  margin-right: 8px; /* Espaciado entre el icono y el texto */
+}

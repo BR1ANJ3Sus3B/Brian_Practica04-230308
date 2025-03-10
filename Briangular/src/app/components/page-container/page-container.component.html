@@ -1,0 +1,22 @@
+<div class="container">
+  <!-- Breadcrumb -->
+  <div class="breadcrumb-container">
+    <!-- Muestra el breadcrumb solo si el usuario está logueado -->
+    <app-breadcrumb *ngIf="isLoggedIn" [exerciseName]="selectedExercise"></app-breadcrumb>
+  </div>
+  
+  <!-- Contenido principal (scrollable) -->
+  <div class="content-container">
+    <!-- Muestra el componente de contenido, pasando ejercicio y estado de login -->
+    <app-content 
+      [exerciseName]="selectedExercise" 
+      [isLoggedIn]="isLoggedIn"
+      (login)="onLogin()">
+    </app-content>
+  </div>
+</div>
+
+<!-- Footer fijo en la parte inferior -->
+<div class="footer-container">
+  <app-footer></app-footer>
+</div>

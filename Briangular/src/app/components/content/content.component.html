@@ -1,0 +1,31 @@
+<!-- Contenedor principal -->
+<div class="content-wrapper">
+    <!-- Si el usuario NO está logueado, se muestra el botón de Login -->
+    <div *ngIf="!isLoggedIn" class="login-container">
+      <app-login (loginSuccess)="loginClick()"></app-login> <!-- Emitir evento de login cuando el usuario haga login -->
+    </div>
+  
+    <!-- Si el usuario está logueado, se muestra el contenido -->
+    <div *ngIf="isLoggedIn" class="exercise-container">
+      <ng-container [ngSwitch]="exerciseName">
+        <app-ejercicio01 *ngSwitchCase="'Ejercicio 01'"></app-ejercicio01>
+        <app-ejercicio02 *ngSwitchCase="'Ejercicio 02'"></app-ejercicio02>
+        <app-ejercicio03 *ngSwitchCase="'Ejercicio 03'"></app-ejercicio03>
+        <app-ejercicio04 *ngSwitchCase="'Ejercicio 04'"></app-ejercicio04>
+        <app-ejercicio05 *ngSwitchCase="'Ejercicio 05'"></app-ejercicio05>
+        <app-ejercicio06 *ngSwitchCase="'Ejercicio 06'"></app-ejercicio06>
+        <app-ejercicio07 *ngSwitchCase="'Ejercicio 07'"></app-ejercicio07>
+        <app-ejercicio08 *ngSwitchCase="'Ejercicio 08'"></app-ejercicio08>
+        <app-ejercicio09 *ngSwitchCase="'Ejercicio 09'"></app-ejercicio09>
+        <app-ejercicio10 *ngSwitchCase="'Ejercicio 10'"></app-ejercicio10>
+        <app-ejercicio11 *ngSwitchCase="'Ejercicio 11'"></app-ejercicio11>
+    
+        
+        <!-- Mensaje cuando no hay ejercicio seleccionado -->
+        <div *ngSwitchDefault class="no-exercise">
+          <p>Selecciona un ejercicio en el panel "Ejercicios" (navbar).</p>
+        </div>
+      </ng-container>
+    </div>
+  </div>
+  

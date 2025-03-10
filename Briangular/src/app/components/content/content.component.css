@@ -1,0 +1,100 @@
+/* Contenedor principal para el contenido */
+.content-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Hace que ocupe el 100% de la altura de la pantalla */
+  width: 100%;
+  background-color: #F5F5F5; /* Fondo gris claro */
+}
+
+/* Vista de Login: ocupa toda la pantalla cuando el usuario no está logueado */
+.login-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #34495E; /* Azul oscuro y moderno */
+  height: 100vh; /* El login ocupa toda la pantalla */
+  position: fixed; /* Asegura que el contenido no se desborde */
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 30;
+}
+
+/* Formulario de Login */
+.login-container form {
+  background-color: #ECF0F1; /* Gris muy claro para el formulario */
+  padding: 40px;
+  border-radius: 8px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  max-width: 90%;
+  transition: transform 0.3s ease;
+}
+
+.login-container form:hover {
+  transform: scale(1.02);
+}
+
+/* Título */
+.login-container h2 {
+  text-align: center;
+  color: #2980B9; /* Azul brillante metálico */
+  font-size: 1.8em;
+  margin-bottom: 20px;
+}
+
+/* Botón Login */
+.login-container button {
+  background-color: #1ABC9C; /* Verde brillante */
+  color: #FFFFFF;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-container button:hover {
+  background-color: #16A085; /* Verde más oscuro */
+}
+
+/* Contenedor para el contenido de ejercicios, solo visible cuando el usuario está logueado */
+.exercise-container {
+  flex: 1;
+  padding: 30px;
+  background-color: #E4E7EC; /* Fondo gris claro, limpio y moderno */
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Permite scroll si el contenido es largo */
+}
+
+/* Cada bloque de ejercicio */
+.exercise-content {
+  margin-bottom: 20px;
+  background-color: #2C3E50; /* Azul oscuro elegante */
+  padding: 20px;
+  border-radius: 8px;
+  color: #ECF0F1; /* Texto blanco suave */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  width: 100%;
+}
+
+.exercise-content h3 {
+  color: #F39C12; /* Color amarillo cálido para títulos */
+  font-size: 1.4em;
+  margin-bottom: 15px;
+}
+
+/* Mensaje cuando no hay ejercicio seleccionado */
+.no-exercise p {
+  text-align: center;
+  font-size: 1.1rem;
+  color: #7F8C8D; /* Gris medio */
+  font-weight: 600;
+}

@@ -1,0 +1,94 @@
+/* General body styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #121212;
+  color: #fff;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(45deg, #1d1d1d, #2c3e50);
+}
+
+/* Card container */
+.app-container {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  width: 100%;
+  max-width: 800px;
+  backdrop-filter: blur(10px);
+  transition: transform 0.3s ease;
+}
+
+.app-container:hover {
+  transform: scale(1.05);
+}
+
+/* Title styling */
+h1 {
+  font-size: 2.5rem;
+  font-weight: 600;
+  text-align: center;
+  color: #1abc9c;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+/* List styling */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  background: #2d3436;
+  border-radius: 10px;
+  margin: 10px 0;
+  padding: 15px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #1abc9c;
+  color: #fff;
+}
+
+/* Buttons */
+button {
+  background-color: #1abc9c;
+  color: #fff;
+  padding: 12px 24px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #16a085;
+}
+
+/* Styling for show/hide toggle */
+.show-list-btn {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.show-list-btn button {
+  font-size: 1.2rem;
+  background-color: #e74c3c;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 50px;
+}
+
+.show-list-btn button:hover {
+  background-color: #c0392b;
+}

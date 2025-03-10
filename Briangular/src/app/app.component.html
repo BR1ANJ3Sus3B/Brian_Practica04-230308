@@ -1,0 +1,23 @@
+<!-- app.component.html -->
+<!-- Mostrar navbar solo si se está logueado -->
+<div *ngIf="isLoggedIn">
+  <app-navbar 
+    (toggle)="toggleSidebar()"
+    (logout)="logout()"
+    (exerciseSelected)="onExerciseSelected($event)">
+  </app-navbar>
+</div>
+
+<div class="container" [class.sidebar-collapsed]="isSidebarCollapsed">
+  <!-- Mostrar sidebar solo si se está logueado -->
+  <app-sidebar 
+    *ngIf="isLoggedIn && !isSidebarCollapsed"
+    [selectedExercise]="currentExercise">
+  </app-sidebar>
+
+  <app-page-container 
+    [selectedExercise]="currentExercise"
+    [isLoggedIn]="isLoggedIn"
+    (login)="login()">
+  </app-page-container>
+</div>

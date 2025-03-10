@@ -1,0 +1,70 @@
+.footer {
+  background-color: #2C3E50; /* Fondo azul oscuro, elegante y moderno */
+  color: #ECF0F1;            /* Texto blanco suave */
+  padding: 20px;
+  width: 100%;
+  box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada para un look sofisticado */
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer-logo .brand {
+  font-size: 1.4em;
+  font-weight: bold;
+  color: #F39C12;  /* Color amarillo cálido para el logo */
+  text-decoration: none;
+  margin-bottom: 10px;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+  margin-bottom: 10px;
+}
+
+.footer-links a {
+  color: #BDC3C7; /* Gris claro para los enlaces */
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #F39C12; /* Amarillo cálido en hover */
+  transform: translateY(-2px); /* Efecto de elevación */
+}
+
+.footer-info p {
+  margin: 0;
+  color: #7F8C8D; /* Gris medio para los textos pequeños */
+  font-size: 0.9em;
+}
+
+/* Diseño responsivo */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    flex-direction: column;
+    margin-bottom: 20px;
+    gap: 10px;
+  }
+}

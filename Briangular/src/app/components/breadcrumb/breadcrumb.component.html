@@ -1,0 +1,5 @@
+<!-- breadcrumb.component.html -->
+<p *ngIf="exerciseName; else noExercise">Estás en: {{ exerciseName }}</p>
+<ng-template #noExercise>
+  <p>No hay ejercicio seleccionado</p>
+</ng-template>

@@ -1,0 +1,127 @@
+/* Sidebar: se fija al lado izquierdo y utiliza la misma paleta que el navbar */
+.sidebar {
+  background-color: #1A090D;  /* Fondo principal */
+  color: #A8BA9A;             /* Texto en tono secundario */
+  width: 250px;               /* Ancho fijo para la estructura */
+  height: 100vh;             /* Fijo en la pantalla */
+  top: 20;
+  left: 0;
+  padding: 40px;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+  position: relative;
+}
+
+/* Encabezado del sidebar */
+.sidebar-header h3 {
+  margin: 0 0 15px;
+  color: #ACE894;             /* Uso de color de acento para el título */
+  font-size: 1.4em;
+}
+
+/* Contenido del sidebar */
+.sidebar-content p {
+  font-size: 1em;
+  line-height: 1.5;
+}
+/* Sidebar: se fija al lado izquierdo y utiliza una paleta de colores más suave */
+.sidebar {
+  background-color: #ECF0F1;  /* Fondo claro y moderno */
+  color: #2C3E50;             /* Texto en un gris oscuro para contraste */
+  width: 260px;               /* Ancho fijo para la estructura */
+  height: 100vh;              /* Fijo en toda la altura de la pantalla */
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 30px 25px;         /* Padding más espacioso */
+  box-shadow: 4px 0 12px rgba(0, 0, 0, 0.1);  /* Sombra suave */
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-top: 0;
+  border-right: 2px solid #BDC3C7; /* Borde sutil en gris */
+  transition: transform 0.3s ease;
+}
+
+/* Encabezado del sidebar */
+.sidebar-header h3 {
+  margin: 0 0 20px;
+  color: #3498DB;             /* Azul brillante para el título */
+  font-size: 1.5em;           /* Aumento del tamaño del encabezado */
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  transition: color 0.3s ease;
+}
+
+.sidebar-header h3:hover {
+  color: #1F77B4;             /* Azul más oscuro en el hover */
+}
+
+/* Contenido del sidebar */
+.sidebar-content {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;                  /* Espaciado entre los elementos */
+}
+
+.sidebar-content p {
+  font-size: 1.1em;
+  line-height: 1.7;
+  color: #2C3E50;             /* Gris oscuro para los textos */
+  transition: color 0.3s ease;
+}
+
+.sidebar-content p:hover {
+  color: #3498DB;             /* Azul brillante al pasar el ratón */
+}
+
+/* Elementos interactivos como enlaces del sidebar */
+.sidebar-content a {
+  text-decoration: none;
+  color: #2C3E50;             /* Color gris oscuro para los enlaces */
+  padding: 12px;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-content a:hover {
+  background-color: #3498DB; /* Fondo azul brillante al pasar el ratón */
+  color: #fff;               /* Texto blanco al hover */
+  transform: translateX(4px); /* Efecto de desplazamiento */
+}
+
+/* Botón o acción destacada */
+.sidebar-btn {
+  background-color: #2ECC71; /* Verde brillante para un botón destacado */
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.sidebar-btn:hover {
+  background-color: #27AE60; /* Verde más oscuro en el hover */
+  transform: scale(1.05);     /* Ligero aumento del tamaño */
+}
+
+/* Ajuste para pantallas más pequeñas */
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .sidebar-header h3 {
+    font-size: 1.3em;
+  }
+}
