@@ -11,6 +11,7 @@ import { Ejercicio08Component } from '../../ejercicio08/ejercicio08.component';
 import { Ejercicio09Component } from '../../ejercicio09/ejercicio09.component';
 import { Ejercicio10Component } from '../../ejercicio10/ejercicio10.component';
 import { Ejercicio11Component } from '../../ejercicio11/ejercicio11.component';
+import { BasicDatatableComponent } from '../../basic-datatable/basic-datatable.component';
 
 import { LoginComponent } from '../login/login.component';
 
@@ -31,7 +32,7 @@ import { LoginComponent } from '../login/login.component';
     Ejercicio10Component,
     Ejercicio11Component,
     
-    LoginComponent
+    LoginComponent,BasicDatatableComponent
   ],
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']  // <-- CORREGIDO

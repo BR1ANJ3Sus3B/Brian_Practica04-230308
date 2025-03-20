@@ -4,6 +4,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { PageContainerComponent } from './components/page-container/page-container.component';
 import { NgIf } from '@angular/common';
+import { BasicDatatableComponent } from './basic-datatable/basic-datatable.component'
 
 @Component({
   selector: 'app-root',
@@ -12,8 +13,7 @@ import { NgIf } from '@angular/common';
     NavbarComponent,
     SidebarComponent,
     PageContainerComponent,
-    NgIf
-  ],
+    NgIf,BasicDatatableComponent],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
 })
