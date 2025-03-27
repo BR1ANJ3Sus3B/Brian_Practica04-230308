@@ -14,6 +14,12 @@ import { Ejercicio11Component } from '../../ejercicio11/ejercicio11.component';
 import { BasicDatatableComponent } from '../../basic-datatable/basic-datatable.component';
 
 import { LoginComponent } from '../login/login.component';
+import { BasicGraphicComponent } from '../../basic-graphic/basic-graphic.component';
+import { GraphicPopulationPyramidComponent } from '../../graphic-population-pyramid/graphic-population-pyramid.component';
+import { AjaxGraphicComponent } from '../../ajax-graphic/ajax-graphic.component';
+import { AjaxTableComponent } from '../../ajax-table/ajax-table.component';
+import { JsonTableComponent } from '../../json-table/json-table.component';
+import { JsonGraphicComponent } from '../../json-graphic/json-graphic.component';
 
 @Component({
   selector: 'app-content',
@@ -32,7 +38,10 @@ import { LoginComponent } from '../login/login.component';
     Ejercicio10Component,
     Ejercicio11Component,
     
-    LoginComponent,BasicDatatableComponent
+    LoginComponent,BasicDatatableComponent,
+    BasicGraphicComponent,GraphicPopulationPyramidComponent,
+    AjaxGraphicComponent,AjaxTableComponent,
+    JsonTableComponent, JsonGraphicComponent
   ],
   templateUrl: './content.component.html',
   styleUrls: ['./content.component.css']  // <-- CORREGIDO

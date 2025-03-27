@@ -1,0 +1,2425 @@
+{
+  "ubers": [
+    {
+      "START_DATE": "01-01-2016 21:11",
+      "END_DATE": "01-01-2016 21:17",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 5.1,
+      "PURPOSE": "Meal/Entertain"
+    },
+    {
+      "START_DATE": "01-02-2016 01:25",
+      "END_DATE": "01-02-2016 01:37",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 5,
+      "PURPOSE": ""
+    },
+    {
+      "START_DATE": "01-02-2016 20:25",
+      "END_DATE": "01-02-2016 20:38",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 4.8,
+      "PURPOSE": "Errand/Supplies"
+    },
+    {
+      "START_DATE": "01-05-2016 17:31",
+      "END_DATE": "01-05-2016 17:45",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 4.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "01-05-2016 17:31",
+      "END_DATE": "01-05-2016 17:45",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 4.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "02-05-2016 09:00",
+      "END_DATE": "02-05-2016 09:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami",
+      "MILES": 10.5,
+      "PURPOSE": "Doctor's Appointment"
+    },
+    {
+      "START_DATE": "03-05-2016 14:15",
+      "END_DATE": "03-05-2016 14:50",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Lake Worth",
+      "MILES": 8.9,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "04-05-2016 07:00",
+      "END_DATE": "04-05-2016 07:45",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 12.3,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "05-05-2016 10:00",
+      "END_DATE": "05-05-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 6.2,
+      "PURPOSE": "Grocery Shopping"
+    },
+    {
+      "START_DATE": "06-05-2016 13:00",
+      "END_DATE": "06-05-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 15.0,
+      "PURPOSE": "Business Lunch"
+    },
+    {
+      "START_DATE": "07-05-2016 08:30",
+      "END_DATE": "07-05-2016 09:15",
+      "CATEGORY": "Business",
+      "START": "Boca Raton",
+      "STOP": "Pompano Beach",
+      "MILES": 5.3,
+      "PURPOSE": "Project Meeting"
+    },
+    {
+      "START_DATE": "08-05-2016 16:00",
+      "END_DATE": "08-05-2016 16:45",
+      "CATEGORY": "Personal",
+      "START": "Naples",
+      "STOP": "Naples",
+      "MILES": 3.4,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "09-05-2016 11:00",
+      "END_DATE": "09-05-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Gainesville",
+      "MILES": 28.1,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "10-05-2016 18:00",
+      "END_DATE": "10-05-2016 18:45",
+      "CATEGORY": "Business",
+      "START": "Jacksonville",
+      "STOP": "St. Augustine",
+      "MILES": 38.0,
+      "PURPOSE": "Business Meeting"
+    },
+    {
+      "START_DATE": "11-05-2016 12:30",
+      "END_DATE": "11-05-2016 13:00",
+      "CATEGORY": "Personal",
+      "START": "Key West",
+      "STOP": "Key West",
+      "MILES": 5.2,
+      "PURPOSE": "Rest"
+    },
+    {
+      "START_DATE": "12-05-2016 09:15",
+      "END_DATE": "12-05-2016 09:45",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Miami",
+      "MILES": 7.3,
+      "PURPOSE": "Networking Event"
+    },
+    {
+      "START_DATE": "13-05-2016 14:00",
+      "END_DATE": "13-05-2016 14:45",
+      "CATEGORY": "Personal",
+      "START": "Fort Myers",
+      "STOP": "Fort Myers",
+      "MILES": 9.1,
+      "PURPOSE": "Visit Family"
+    },
+    {
+      "START_DATE": "14-05-2016 10:30",
+      "END_DATE": "14-05-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Aventura",
+      "MILES": 12.5,
+      "PURPOSE": "Conference Presentation"
+    },
+    {
+      "START_DATE": "15-05-2016 13:15",
+      "END_DATE": "15-05-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Pompano Beach",
+      "STOP": "Fort Lauderdale",
+      "MILES": 8.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "16-05-2016 09:00",
+      "END_DATE": "16-05-2016 09:45",
+      "CATEGORY": "Personal",
+      "START": "Boca Raton",
+      "STOP": "Boca Raton",
+      "MILES": 4.0,
+      "PURPOSE": "Yoga Class"
+    },
+    {
+      "START_DATE": "17-05-2016 11:00",
+      "END_DATE": "17-05-2016 11:45",
+      "CATEGORY": "Business",
+      "START": "Port St. Lucie",
+      "STOP": "Vero Beach",
+      "MILES": 23.4,
+      "PURPOSE": "Site Visit"
+    },
+    {
+      "START_DATE": "18-05-2016 15:00",
+      "END_DATE": "18-05-2016 15:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Fort Lauderdale",
+      "MILES": 22.0,
+      "PURPOSE": "Sales Call"
+    },
+    {
+      "START_DATE": "19-05-2016 17:00",
+      "END_DATE": "19-05-2016 17:45",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 10.3,
+      "PURPOSE": "Relaxation"
+    },
+    {
+      "START_DATE": "20-05-2016 08:30",
+      "END_DATE": "20-05-2016 09:00",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 6.8,
+      "PURPOSE": "Training"
+    },
+    {
+      "START_DATE": "01-05-2016 17:31",
+      "END_DATE": "01-05-2016 17:45",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 4.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "02-05-2016 09:00",
+      "END_DATE": "02-05-2016 09:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami",
+      "MILES": 10.5,
+      "PURPOSE": "Doctor's Appointment"
+    },
+    {
+      "START_DATE": "03-05-2016 14:15",
+      "END_DATE": "03-05-2016 14:50",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Lake Worth",
+      "MILES": 8.9,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "04-05-2016 07:00",
+      "END_DATE": "04-05-2016 07:45",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 12.3,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "05-05-2016 10:00",
+      "END_DATE": "05-05-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 6.2,
+      "PURPOSE": "Grocery Shopping"
+    },
+    {
+      "START_DATE": "06-05-2016 13:00",
+      "END_DATE": "06-05-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 15.0,
+      "PURPOSE": "Business Lunch"
+    },
+    {
+      "START_DATE": "07-05-2016 08:30",
+      "END_DATE": "07-05-2016 09:15",
+      "CATEGORY": "Business",
+      "START": "Boca Raton",
+      "STOP": "Pompano Beach",
+      "MILES": 5.3,
+      "PURPOSE": "Project Meeting"
+    },
+    {
+      "START_DATE": "08-05-2016 16:00",
+      "END_DATE": "08-05-2016 16:45",
+      "CATEGORY": "Personal",
+      "START": "Naples",
+      "STOP": "Naples",
+      "MILES": 3.4,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "09-05-2016 11:00",
+      "END_DATE": "09-05-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Gainesville",
+      "MILES": 28.1,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "10-05-2016 18:00",
+      "END_DATE": "10-05-2016 18:45",
+      "CATEGORY": "Business",
+      "START": "Jacksonville",
+      "STOP": "St. Augustine",
+      "MILES": 38.0,
+      "PURPOSE": "Business Meeting"
+    },
+    {
+      "START_DATE": "11-05-2016 12:30",
+      "END_DATE": "11-05-2016 13:00",
+      "CATEGORY": "Personal",
+      "START": "Key West",
+      "STOP": "Key West",
+      "MILES": 5.2,
+      "PURPOSE": "Rest"
+    },
+    {
+      "START_DATE": "12-05-2016 09:15",
+      "END_DATE": "12-05-2016 09:45",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Miami",
+      "MILES": 7.3,
+      "PURPOSE": "Networking Event"
+    },
+    {
+      "START_DATE": "13-05-2016 14:00",
+      "END_DATE": "13-05-2016 14:45",
+      "CATEGORY": "Personal",
+      "START": "Fort Myers",
+      "STOP": "Fort Myers",
+      "MILES": 9.1,
+      "PURPOSE": "Visit Family"
+    },
+    {
+      "START_DATE": "14-05-2016 10:30",
+      "END_DATE": "14-05-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Aventura",
+      "MILES": 12.5,
+      "PURPOSE": "Conference Presentation"
+    },
+    {
+      "START_DATE": "15-05-2016 13:15",
+      "END_DATE": "15-05-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Pompano Beach",
+      "STOP": "Fort Lauderdale",
+      "MILES": 8.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "16-05-2016 09:00",
+      "END_DATE": "16-05-2016 09:45",
+      "CATEGORY": "Personal",
+      "START": "Boca Raton",
+      "STOP": "Boca Raton",
+      "MILES": 4.0,
+      "PURPOSE": "Yoga Class"
+    },
+    {
+      "START_DATE": "17-05-2016 11:00",
+      "END_DATE": "17-05-2016 11:45",
+      "CATEGORY": "Business",
+      "START": "Port St. Lucie",
+      "STOP": "Vero Beach",
+      "MILES": 23.4,
+      "PURPOSE": "Site Visit"
+    },
+    {
+      "START_DATE": "18-05-2016 15:00",
+      "END_DATE": "18-05-2016 15:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Fort Lauderdale",
+      "MILES": 22.0,
+      "PURPOSE": "Sales Call"
+    },
+    {
+      "START_DATE": "19-05-2016 17:00",
+      "END_DATE": "19-05-2016 17:45",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 10.3,
+      "PURPOSE": "Relaxation"
+    },
+    {
+      "START_DATE": "20-05-2016 08:30",
+      "END_DATE": "20-05-2016 09:00",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 6.8,
+      "PURPOSE": "Training"
+    },
+    {
+      "START_DATE": "21-05-2016 12:00",
+      "END_DATE": "21-05-2016 12:45",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Boynton Beach",
+      "MILES": 11.2,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "22-05-2016 14:30",
+      "END_DATE": "22-05-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 5.6,
+      "PURPOSE": "Hair Appointment"
+    },
+    {
+      "START_DATE": "23-05-2016 10:00",
+      "END_DATE": "23-05-2016 10:45",
+      "CATEGORY": "Business",
+      "START": "Key Biscayne",
+      "STOP": "Miami",
+      "MILES": 8.3,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "24-05-2016 13:45",
+      "END_DATE": "24-05-2016 14:15",
+      "CATEGORY": "Personal",
+      "START": "Delray Beach",
+      "STOP": "Delray Beach",
+      "MILES": 4.1,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "25-05-2016 09:30",
+      "END_DATE": "25-05-2016 10:00",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 7.9,
+      "PURPOSE": "Presentation"
+    },
+    {
+      "START_DATE": "26-05-2016 11:30",
+      "END_DATE": "26-05-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Lakeland",
+      "STOP": "Winter Haven",
+      "MILES": 18.5,
+      "PURPOSE": "Site Visit"
+    },
+    {
+      "START_DATE": "27-05-2016 15:00",
+      "END_DATE": "27-05-2016 15:30",
+      "CATEGORY": "Personal",
+      "START": "Fort Lauderdale",
+      "STOP": "Fort Lauderdale",
+      "MILES": 6.7,
+      "PURPOSE": "Doctor's Appointment"
+    },
+    {
+      "START_DATE": "28-05-2016 10:15",
+      "END_DATE": "28-05-2016 10:45",
+      "CATEGORY": "Business",
+      "START": "Cocoa Beach",
+      "STOP": "Melbourne",
+      "MILES": 15.3,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "29-05-2016 08:00",
+      "END_DATE": "29-05-2016 08:30",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 22.8,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "30-05-2016 17:30",
+      "END_DATE": "30-05-2016 18:00",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Orlando",
+      "MILES": 4.2,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "31-05-2016 13:00",
+      "END_DATE": "31-05-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 11.9,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "01-06-2016 10:30",
+      "END_DATE": "01-06-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 12.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "02-06-2016 14:00",
+      "END_DATE": "02-06-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 8.0,
+      "PURPOSE": "Grocery Shopping"
+    },
+    {
+      "START_DATE": "03-06-2016 16:30",
+      "END_DATE": "03-06-2016 17:00",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Miami",
+      "MILES": 5.4,
+      "PURPOSE": "Networking Event"
+    },
+    {
+      "START_DATE": "04-06-2016 12:30",
+      "END_DATE": "04-06-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Boca Raton",
+      "STOP": "Palm Beach",
+      "MILES": 9.2,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "05-06-2016 13:15",
+      "END_DATE": "05-06-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Lake Worth",
+      "MILES": 10.4,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "06-06-2016 08:45",
+      "END_DATE": "06-06-2016 09:15",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 7.0,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "07-06-2016 14:30",
+      "END_DATE": "07-06-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 15.6,
+      "PURPOSE": "Business Call"
+    },
+    {
+      "START_DATE": "08-06-2016 10:00",
+      "END_DATE": "08-06-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 5.2,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "09-06-2016 13:00",
+      "END_DATE": "09-06-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 9.3,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "10-06-2016 12:45",
+      "END_DATE": "10-06-2016 13:15",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 11.1,
+      "PURPOSE": "Presentation"
+    },
+    {
+      "START_DATE": "11-06-2016 14:00",
+      "END_DATE": "11-06-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami",
+      "MILES": 3.8,
+      "PURPOSE": "Personal Appointment"
+    },
+    {
+      "START_DATE": "12-06-2016 09:15",
+      "END_DATE": "12-06-2016 09:45",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 16.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "13-06-2016 11:00",
+      "END_DATE": "13-06-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "Boca Raton",
+      "STOP": "Boca Raton",
+      "MILES": 6.0,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "14-06-2016 14:30",
+      "END_DATE": "14-06-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Boca Raton",
+      "MILES": 18.3,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "15-06-2016 17:00",
+      "END_DATE": "15-06-2016 17:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 5.1,
+      "PURPOSE": "Grocery Shopping"
+    },
+    {
+      "START_DATE": "16-06-2016 09:30",
+      "END_DATE": "16-06-2016 10:00",
+      "CATEGORY": "Business",
+      "START": "Clearwater",
+      "STOP": "St. Petersburg",
+      "MILES": 13.5,
+      "PURPOSE": "Business Meeting"
+    },
+    {
+      "START_DATE": "17-06-2016 12:00",
+      "END_DATE": "17-06-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 7.4,
+      "PURPOSE": "Personal Event"
+    },
+    {
+      "START_DATE": "18-06-2016 15:00",
+      "END_DATE": "18-06-2016 15:30",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 12.9,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "19-06-2016 10:15",
+      "END_DATE": "19-06-2016 10:45",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 9.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "20-06-2016 17:30",
+      "END_DATE": "20-06-2016 18:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 8.6,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "21-06-2016 11:00",
+      "END_DATE": "21-06-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 10.5,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "22-06-2016 09:00",
+      "END_DATE": "22-06-2016 09:30",
+      "CATEGORY": "Personal",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 4.0,
+      "PURPOSE": "Personal Shopping"
+    },
+    {
+      "START_DATE": "23-06-2016 14:15",
+      "END_DATE": "23-06-2016 14:45",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 7.6,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "24-06-2016 13:30",
+      "END_DATE": "24-06-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Lake Worth",
+      "MILES": 8.0,
+      "PURPOSE": "Strategy Session"
+    },
+    {
+      "START_DATE": "25-06-2016 09:45",
+      "END_DATE": "25-06-2016 10:15",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 15.3,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "26-06-2016 12:00",
+      "END_DATE": "26-06-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 4.5,
+      "PURPOSE": "Visit Family"
+    },
+    {
+      "START_DATE": "27-06-2016 13:30",
+      "END_DATE": "27-06-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 7.8,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "28-06-2016 10:45",
+      "END_DATE": "28-06-2016 11:15",
+      "CATEGORY": "Personal",
+      "START": "Clearwater",
+      "STOP": "St. Petersburg",
+      "MILES": 5.3,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "29-06-2016 16:00",
+      "END_DATE": "29-06-2016 16:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 13.9,
+      "PURPOSE": "Team Building"
+    },
+    {
+      "START_DATE": "30-06-2016 11:00",
+      "END_DATE": "30-06-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami",
+      "MILES": 6.4,
+      "PURPOSE": "Doctor Appointment"
+    },
+    {
+      "START_DATE": "01-07-2016 15:30",
+      "END_DATE": "01-07-2016 16:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 12.5,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "02-07-2016 10:00",
+      "END_DATE": "02-07-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Boca Raton",
+      "MILES": 14.2,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "03-07-2016 12:30",
+      "END_DATE": "03-07-2016 13:00",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Tampa",
+      "MILES": 7.0,
+      "PURPOSE": "Visit Friends"
+    },
+    {
+      "START_DATE": "04-07-2016 11:45",
+      "END_DATE": "04-07-2016 12:15",
+      "CATEGORY": "Business",
+      "START": "Clearwater",
+      "STOP": "Tampa",
+      "MILES": 18.7,
+      "PURPOSE": "Business Conference"
+    },
+    {
+      "START_DATE": "05-07-2016 14:00",
+      "END_DATE": "05-07-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 5.9,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "06-07-2016 13:00",
+      "END_DATE": "06-07-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 7.4,
+      "PURPOSE": "Business Trip"
+    },
+    {
+      "START_DATE": "07-07-2016 15:30",
+      "END_DATE": "07-07-2016 16:00",
+      "CATEGORY": "Personal",
+      "START": "Fort Myers",
+      "STOP": "Fort Myers",
+      "MILES": 4.2,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "08-07-2016 12:15",
+      "END_DATE": "08-07-2016 12:45",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 15.6,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "09-07-2016 10:00",
+      "END_DATE": "09-07-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Boca Raton",
+      "STOP": "West Palm Beach",
+      "MILES": 12.1,
+      "PURPOSE": "Business Development"
+    },
+    {
+      "START_DATE": "10-07-2016 14:30",
+      "END_DATE": "10-07-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Fort Pierce",
+      "STOP": "Fort Pierce",
+      "MILES": 5.0,
+      "PURPOSE": "Local Event"
+    },
+    {
+      "START_DATE": "11-07-2016 11:00",
+      "END_DATE": "11-07-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 16.2,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "12-07-2016 10:15",
+      "END_DATE": "12-07-2016 10:45",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 9.3,
+      "PURPOSE": "Visit Family"
+    },
+    {
+      "START_DATE": "13-07-2016 14:00",
+      "END_DATE": "13-07-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 13.5,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "14-07-2016 13:30",
+      "END_DATE": "14-07-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 7.8,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "15-07-2016 16:00",
+      "END_DATE": "15-07-2016 16:30",
+      "CATEGORY": "Personal",
+      "START": "Fort Myers",
+      "STOP": "Naples",
+      "MILES": 18.2,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "16-07-2016 12:45",
+      "END_DATE": "16-07-2016 13:15",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Venice",
+      "MILES": 10.1,
+      "PURPOSE": "Business Meeting"
+    },
+    {
+      "START_DATE": "17-07-2016 11:30",
+      "END_DATE": "17-07-2016 12:00",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 15.6,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "18-07-2016 10:30",
+      "END_DATE": "18-07-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 6.3,
+      "PURPOSE": "Team Event"
+    },
+    {
+      "START_DATE": "19-07-2016 14:15",
+      "END_DATE": "19-07-2016 14:45",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 8.0,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "20-07-2016 15:00",
+      "END_DATE": "20-07-2016 15:30",
+      "CATEGORY": "Personal",
+      "START": "Clearwater",
+      "STOP": "Tampa",
+      "MILES": 10.2,
+      "PURPOSE": "Family Visit"
+    },
+    {
+      "START_DATE": "21-07-2016 11:15",
+      "END_DATE": "21-07-2016 11:45",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 13.7,
+      "PURPOSE": "Business Conference"
+    },
+    {
+      "START_DATE": "22-07-2016 12:00",
+      "END_DATE": "22-07-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 12.4,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "23-07-2016 13:30",
+      "END_DATE": "23-07-2016 14:00",
+      "CATEGORY": "Personal",
+      "START": "Naples",
+      "STOP": "Marco Island",
+      "MILES": 19.1,
+      "PURPOSE": "Beach Day"
+    },
+    {
+      "START_DATE": "24-07-2016 16:30",
+      "END_DATE": "24-07-2016 17:00",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 12.8,
+      "PURPOSE": "Business Event"
+    },
+    {
+      "START_DATE": "25-07-2016 11:30",
+      "END_DATE": "25-07-2016 12:00",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 5.3,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "26-07-2016 10:00",
+      "END_DATE": "26-07-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Lake Mary",
+      "MILES": 14.0,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "27-07-2016 12:15",
+      "END_DATE": "27-07-2016 12:45",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Boca Raton",
+      "MILES": 15.8,
+      "PURPOSE": "Project Discussion"
+    },
+    {
+      "START_DATE": "28-07-2016 13:00",
+      "END_DATE": "28-07-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 5.1,
+      "PURPOSE": "Doctor Appointment"
+    },
+    {
+      "START_DATE": "29-07-2016 11:00",
+      "END_DATE": "29-07-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Clearwater",
+      "STOP": "St. Petersburg",
+      "MILES": 9.5,
+      "PURPOSE": "Business Conference"
+    },
+    {
+      "START_DATE": "30-07-2016 10:15",
+      "END_DATE": "30-07-2016 10:45",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 12.2,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "31-07-2016 14:30",
+      "END_DATE": "31-07-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 6.3,
+      "PURPOSE": "Family Visit"
+    },
+    {
+      "START_DATE": "01-08-2016 11:45",
+      "END_DATE": "01-08-2016 12:15",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 7.2,
+      "PURPOSE": "Business Meeting"
+    },
+    {
+      "START_DATE": "02-08-2016 12:30",
+      "END_DATE": "02-08-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 8.7,
+      "PURPOSE": "Sales Meeting"
+    },
+    {
+      "START_DATE": "03-08-2016 14:00",
+      "END_DATE": "03-08-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Brandon",
+      "MILES": 11.4,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "04-08-2016 10:15",
+      "END_DATE": "04-08-2016 10:45",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "West Palm Beach",
+      "MILES": 8.3,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "05-08-2016 13:30",
+      "END_DATE": "05-08-2016 14:00",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 9.1,
+      "PURPOSE": "Doctor Appointment"
+    },
+    {
+      "START_DATE": "06-08-2016 12:00",
+      "END_DATE": "06-08-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 19.2,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "07-08-2016 11:00",
+      "END_DATE": "07-08-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Vero Beach",
+      "MILES": 15.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "08-08-2016 10:45",
+      "END_DATE": "08-08-2016 11:15",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 4.5,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "09-08-2016 14:30",
+      "END_DATE": "09-08-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Lakeland",
+      "MILES": 33.1,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "10-08-2016 13:15",
+      "END_DATE": "10-08-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 12.2,
+      "PURPOSE": "Business Conference"
+    },
+    {
+      "START_DATE": "11-08-2016 12:00",
+      "END_DATE": "11-08-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 8.4,
+      "PURPOSE": "Client Consultation"
+    },
+    {
+      "START_DATE": "12-08-2016 10:00",
+      "END_DATE": "12-08-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Clearwater",
+      "STOP": "Tampa",
+      "MILES": 10.6,
+      "PURPOSE": "Family Visit"
+    },
+    {
+      "START_DATE": "13-08-2016 14:30",
+      "END_DATE": "13-08-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Venice",
+      "MILES": 15.0,
+      "PURPOSE": "Business Consultation"
+    },
+    {
+      "START_DATE": "14-08-2016 13:45",
+      "END_DATE": "14-08-2016 14:15",
+      "CATEGORY": "Personal",
+      "START": "Fort Myers",
+      "STOP": "Naples",
+      "MILES": 18.2,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "15-08-2016 10:30",
+      "END_DATE": "15-08-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 6.2,
+      "PURPOSE": "Team Discussion"
+    },
+    {
+      "START_DATE": "16-08-2016 12:00",
+      "END_DATE": "16-08-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Clearwater",
+      "STOP": "St. Petersburg",
+      "MILES": 8.9,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "17-08-2016 14:45",
+      "END_DATE": "17-08-2016 15:15",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami",
+      "MILES": 27.5,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "18-08-2016 11:30",
+      "END_DATE": "18-08-2016 12:00",
+      "CATEGORY": "Personal",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 18.3,
+      "PURPOSE": "Doctor Appointment"
+    },
+    {
+      "START_DATE": "19-08-2016 10:00",
+      "END_DATE": "19-08-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 9.8,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "20-08-2016 12:15",
+      "END_DATE": "20-08-2016 12:45",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 17.6,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "21-08-2016 14:30",
+      "END_DATE": "21-08-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 8.0,
+      "PURPOSE": "Family Visit"
+    },
+    {
+      "START_DATE": "22-08-2016 10:45",
+      "END_DATE": "22-08-2016 11:15",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 8.1,
+      "PURPOSE": "Team Collaboration"
+    },
+    {
+      "START_DATE": "23-08-2016 12:00",
+      "END_DATE": "23-08-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Brandon",
+      "MILES": 15.3,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "24-08-2016 11:00",
+      "END_DATE": "24-08-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 9.7,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "25-08-2016 13:30",
+      "END_DATE": "25-08-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 18.5,
+      "PURPOSE": "Business Lunch"
+    },
+    {
+      "START_DATE": "26-08-2016 12:30",
+      "END_DATE": "26-08-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami",
+      "MILES": 26.7,
+      "PURPOSE": "Conference"
+    },
+    {
+      "START_DATE": "27-08-2016 10:15",
+      "END_DATE": "27-08-2016 10:45",
+      "CATEGORY": "Personal",
+      "START": "Palm Beach",
+      "STOP": "West Palm Beach",
+      "MILES": 9.2,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "28-08-2016 14:00",
+      "END_DATE": "28-08-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 13.4,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "29-08-2016 11:45",
+      "END_DATE": "29-08-2016 12:15",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Lakeland",
+      "MILES": 32.1,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "30-08-2016 13:00",
+      "END_DATE": "30-08-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 6.5,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "31-08-2016 14:30",
+      "END_DATE": "31-08-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 5.9,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "01-09-2016 10:00",
+      "END_DATE": "01-09-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Venice",
+      "MILES": 16.4,
+      "PURPOSE": "Consultation"
+    },
+    {
+      "START_DATE": "02-09-2016 13:15",
+      "END_DATE": "02-09-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Naples",
+      "MILES": 19.0,
+      "PURPOSE": "Sales Meeting"
+    },
+    {
+      "START_DATE": "03-09-2016 12:00",
+      "END_DATE": "03-09-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 25.4,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "04-09-2016 10:30",
+      "END_DATE": "04-09-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 9.4,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "05-09-2016 14:00",
+      "END_DATE": "05-09-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Boca Raton",
+      "MILES": 22.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "06-09-2016 11:45",
+      "END_DATE": "06-09-2016 12:15",
+      "CATEGORY": "Personal",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 17.1,
+      "PURPOSE": "Doctor Appointment"
+    },
+    {
+      "START_DATE": "07-09-2016 13:30",
+      "END_DATE": "07-09-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 14.2,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "08-09-2016 12:00",
+      "END_DATE": "08-09-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 7.5,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "09-09-2016 10:15",
+      "END_DATE": "09-09-2016 10:45",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 9.6,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "10-09-2016 14:30",
+      "END_DATE": "10-09-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 7.2,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "11-09-2016 13:45",
+      "END_DATE": "11-09-2016 14:15",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami",
+      "MILES": 25.4,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "12-09-2016 10:00",
+      "END_DATE": "12-09-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Brandon",
+      "MILES": 13.8,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "13-09-2016 11:30",
+      "END_DATE": "13-09-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 8.9,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "14-09-2016 14:00",
+      "END_DATE": "14-09-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Naples",
+      "MILES": 20.4,
+      "PURPOSE": "Business Lunch"
+    },
+    {
+      "START_DATE": "15-09-2016 12:30",
+      "END_DATE": "15-09-2016 13:00",
+      "CATEGORY": "Personal",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 12.3,
+      "PURPOSE": "Family Visit"
+    },
+    {
+      "START_DATE": "16-09-2016 11:45",
+      "END_DATE": "16-09-2016 12:15",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Clearwater",
+      "MILES": 9.2,
+      "PURPOSE": "Team Meeting"
+    },
+    {
+      "START_DATE": "17-09-2016 14:30",
+      "END_DATE": "17-09-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 10.5,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "18-09-2016 10:00",
+      "END_DATE": "18-09-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 15.3,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "19-09-2016 13:30",
+      "END_DATE": "19-09-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Lakeland",
+      "MILES": 33.4,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "20-09-2016 12:00",
+      "END_DATE": "20-09-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Miami Beach",
+      "MILES": 5.6,
+      "PURPOSE": "Event"
+    },
+    {
+      "START_DATE": "21-09-2016 14:30",
+      "END_DATE": "21-09-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 16.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "22-09-2016 10:00",
+      "END_DATE": "22-09-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Winter Garden",
+      "MILES": 12.1,
+      "PURPOSE": "Grocery Shopping"
+    },
+    {
+      "START_DATE": "23-09-2016 13:30",
+      "END_DATE": "23-09-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 4.8,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "24-09-2016 12:00",
+      "END_DATE": "24-09-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 21.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "25-09-2016 14:30",
+      "END_DATE": "25-09-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "West Palm Beach",
+      "MILES": 43.5,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "26-09-2016 10:15",
+      "END_DATE": "26-09-2016 10:45",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 6.4,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "27-09-2016 11:30",
+      "END_DATE": "27-09-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Naples",
+      "MILES": 19.2,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "28-09-2016 14:30",
+      "END_DATE": "28-09-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Kissimmee",
+      "MILES": 13.5,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "29-09-2016 13:00",
+      "END_DATE": "29-09-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Brandon",
+      "MILES": 11.1,
+      "PURPOSE": "Personal"
+    },
+    {
+      "START_DATE": "30-09-2016 10:00",
+      "END_DATE": "30-09-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Sarasota",
+      "STOP": "Bradenton",
+      "MILES": 8.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "01-10-2016 14:00",
+      "END_DATE": "01-10-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami Beach",
+      "MILES": 25.4,
+      "PURPOSE": "Event"
+    },
+    {
+      "START_DATE": "02-10-2016 13:45",
+      "END_DATE": "02-10-2016 14:15",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Port St. Lucie",
+      "MILES": 22.8,
+      "PURPOSE": "Client Presentation"
+    },
+    {
+      "START_DATE": "03-10-2016 11:00",
+      "END_DATE": "03-10-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Lake Buena Vista",
+      "MILES": 9.6,
+      "PURPOSE": "Shopping"
+    },
+    {
+      "START_DATE": "04-10-2016 13:30",
+      "END_DATE": "04-10-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Marco Island",
+      "MILES": 17.9,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "05-10-2016 10:00",
+      "END_DATE": "05-10-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 15.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "06-10-2016 12:30",
+      "END_DATE": "06-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Pompano Beach",
+      "MILES": 11.2,
+      "PURPOSE": "Business Lunch"
+    },
+    {
+      "START_DATE": "07-10-2016 14:30",
+      "END_DATE": "07-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Doral",
+      "MILES": 12.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "08-10-2016 10:00",
+      "END_DATE": "08-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Vero Beach",
+      "MILES": 23.2,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "09-10-2016 12:00",
+      "END_DATE": "09-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 4.5,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "10-10-2016 14:30",
+      "END_DATE": "10-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 18.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "11-10-2016 13:00",
+      "END_DATE": "11-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Lake Mary",
+      "MILES": 15.3,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "12-10-2016 11:30",
+      "END_DATE": "12-10-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 27.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "13-10-2016 13:45",
+      "END_DATE": "13-10-2016 14:15",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 18.2,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "14-10-2016 12:30",
+      "END_DATE": "14-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Hollywood",
+      "MILES": 22.1,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "15-10-2016 10:00",
+      "END_DATE": "15-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 19.8,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "16-10-2016 14:30",
+      "END_DATE": "16-10-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Jacksonville",
+      "STOP": "Fernandina Beach",
+      "MILES": 32.5,
+      "PURPOSE": "Personal"
+    },
+    {
+      "START_DATE": "17-10-2016 13:15",
+      "END_DATE": "17-10-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Pensacola",
+      "STOP": "Gulf Breeze",
+      "MILES": 11.3,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "18-10-2016 12:00",
+      "END_DATE": "18-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Bradenton",
+      "MILES": 24.7,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "19-10-2016 14:30",
+      "END_DATE": "19-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 7.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "20-10-2016 10:30",
+      "END_DATE": "20-10-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 6.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "21-10-2016 11:00",
+      "END_DATE": "21-10-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Cape Coral",
+      "MILES": 7.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "22-10-2016 13:00",
+      "END_DATE": "22-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 13.3,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "23-10-2016 10:00",
+      "END_DATE": "23-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Lake Buena Vista",
+      "MILES": 7.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "24-10-2016 12:30",
+      "END_DATE": "24-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 14.5,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "08-10-2016 10:00",
+      "END_DATE": "08-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Vero Beach",
+      "MILES": 23.2,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "09-10-2016 12:00",
+      "END_DATE": "09-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 4.5,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "10-10-2016 14:30",
+      "END_DATE": "10-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 18.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "11-10-2016 13:00",
+      "END_DATE": "11-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Lake Mary",
+      "MILES": 15.3,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "12-10-2016 11:30",
+      "END_DATE": "12-10-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 27.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "13-10-2016 13:45",
+      "END_DATE": "13-10-2016 14:15",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 18.2,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "14-10-2016 12:30",
+      "END_DATE": "14-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Hollywood",
+      "MILES": 22.1,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "15-10-2016 10:00",
+      "END_DATE": "15-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 19.8,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "16-10-2016 14:30",
+      "END_DATE": "16-10-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Jacksonville",
+      "STOP": "Fernandina Beach",
+      "MILES": 32.5,
+      "PURPOSE": "Personal"
+    },
+    {
+      "START_DATE": "17-10-2016 13:15",
+      "END_DATE": "17-10-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Pensacola",
+      "STOP": "Gulf Breeze",
+      "MILES": 11.3,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "18-10-2016 12:00",
+      "END_DATE": "18-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Bradenton",
+      "MILES": 24.7,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "19-10-2016 14:30",
+      "END_DATE": "19-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 7.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "20-10-2016 10:30",
+      "END_DATE": "20-10-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 6.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "21-10-2016 11:00",
+      "END_DATE": "21-10-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Cape Coral",
+      "MILES": 7.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "22-10-2016 13:00",
+      "END_DATE": "22-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 13.3,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "23-10-2016 10:00",
+      "END_DATE": "23-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Lake Buena Vista",
+      "MILES": 7.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "24-10-2016 12:30",
+      "END_DATE": "24-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 14.5,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "08-10-2016 10:00",
+      "END_DATE": "08-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Fort Pierce",
+      "STOP": "Vero Beach",
+      "MILES": 23.2,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "09-10-2016 12:00",
+      "END_DATE": "09-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Miami",
+      "STOP": "Coral Gables",
+      "MILES": 4.5,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "10-10-2016 14:30",
+      "END_DATE": "10-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 18.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "11-10-2016 13:00",
+      "END_DATE": "11-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Lake Mary",
+      "MILES": 15.3,
+      "PURPOSE": "Errands"
+    },
+    {
+      "START_DATE": "12-10-2016 11:30",
+      "END_DATE": "12-10-2016 12:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Fort Myers",
+      "MILES": 27.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "13-10-2016 13:45",
+      "END_DATE": "13-10-2016 14:15",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Delray Beach",
+      "MILES": 18.2,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "14-10-2016 12:30",
+      "END_DATE": "14-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Miami Beach",
+      "STOP": "Hollywood",
+      "MILES": 22.1,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "15-10-2016 10:00",
+      "END_DATE": "15-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 19.8,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "16-10-2016 14:30",
+      "END_DATE": "16-10-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Jacksonville",
+      "STOP": "Fernandina Beach",
+      "MILES": 32.5,
+      "PURPOSE": "Personal"
+    },
+    {
+      "START_DATE": "17-10-2016 13:15",
+      "END_DATE": "17-10-2016 13:45",
+      "CATEGORY": "Business",
+      "START": "Pensacola",
+      "STOP": "Gulf Breeze",
+      "MILES": 11.3,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "18-10-2016 12:00",
+      "END_DATE": "18-10-2016 12:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Bradenton",
+      "MILES": 24.7,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "19-10-2016 14:30",
+      "END_DATE": "19-10-2016 15:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 7.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "20-10-2016 10:30",
+      "END_DATE": "20-10-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Hialeah",
+      "MILES": 6.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "21-10-2016 11:00",
+      "END_DATE": "21-10-2016 11:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Cape Coral",
+      "MILES": 7.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "22-10-2016 13:00",
+      "END_DATE": "22-10-2016 13:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 13.3,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "23-10-2016 10:00",
+      "END_DATE": "23-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Lake Buena Vista",
+      "MILES": 7.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "24-10-2016 12:30",
+      "END_DATE": "24-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Crawfordville",
+      "MILES": 14.5,
+      "PURPOSE": "Workshop"
+    },
+    {
+      "START_DATE": "25-10-2016 14:00",
+      "END_DATE": "25-10-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 22.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "26-10-2016 10:00",
+      "END_DATE": "26-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Maitland",
+      "MILES": 8.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "27-10-2016 12:30",
+      "END_DATE": "27-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami Beach",
+      "MILES": 29.6,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "28-10-2016 11:15",
+      "END_DATE": "28-10-2016 11:45",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Boca Raton",
+      "MILES": 18.3,
+      "PURPOSE": "Business Development"
+    },
+    {
+      "START_DATE": "29-10-2016 13:00",
+      "END_DATE": "29-10-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 14.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "30-10-2016 10:00",
+      "END_DATE": "30-10-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Gainesville",
+      "STOP": "Ocala",
+      "MILES": 30.8,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "31-10-2016 12:00",
+      "END_DATE": "31-10-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Bonita Springs",
+      "MILES": 9.3,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "01-11-2016 14:00",
+      "END_DATE": "01-11-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Key Biscayne",
+      "MILES": 6.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "02-11-2016 10:30",
+      "END_DATE": "02-11-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Panama City",
+      "MILES": 98.2,
+      "PURPOSE": "Business Development"
+    },
+    {
+      "START_DATE": "25-10-2016 14:00",
+      "END_DATE": "25-10-2016 14:30",
+      "CATEGORY": "Personal",
+      "START": "Tampa",
+      "STOP": "St. Petersburg",
+      "MILES": 22.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "26-10-2016 10:00",
+      "END_DATE": "26-10-2016 10:30",
+      "CATEGORY": "Business",
+      "START": "Orlando",
+      "STOP": "Maitland",
+      "MILES": 8.7,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "27-10-2016 12:30",
+      "END_DATE": "27-10-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Miami Beach",
+      "MILES": 29.6,
+      "PURPOSE": "Client Meeting"
+    },
+    {
+      "START_DATE": "28-10-2016 11:15",
+      "END_DATE": "28-10-2016 11:45",
+      "CATEGORY": "Business",
+      "START": "West Palm Beach",
+      "STOP": "Boca Raton",
+      "MILES": 18.3,
+      "PURPOSE": "Business Development"
+    },
+    {
+      "START_DATE": "29-10-2016 13:00",
+      "END_DATE": "29-10-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "St. Petersburg",
+      "STOP": "Tampa",
+      "MILES": 14.9,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "30-10-2016 10:00",
+      "END_DATE": "30-10-2016 10:30",
+      "CATEGORY": "Personal",
+      "START": "Gainesville",
+      "STOP": "Ocala",
+      "MILES": 30.8,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "31-10-2016 12:00",
+      "END_DATE": "31-10-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Fort Myers",
+      "STOP": "Bonita Springs",
+      "MILES": 9.3,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "01-11-2016 14:00",
+      "END_DATE": "01-11-2016 14:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Key Biscayne",
+      "MILES": 6.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "02-11-2016 10:30",
+      "END_DATE": "02-11-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Tallahassee",
+      "STOP": "Panama City",
+      "MILES": 98.2,
+      "PURPOSE": "Business Development"
+    },
+    {
+      "START_DATE": "03-11-2016 12:00",
+      "END_DATE": "03-11-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Daytona Beach",
+      "STOP": "Palm Coast",
+      "MILES": 18.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "04-11-2016 13:30",
+      "END_DATE": "04-11-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Marco Island",
+      "MILES": 23.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "05-11-2016 11:00",
+      "END_DATE": "05-11-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "Melbourne",
+      "STOP": "Cocoa Beach",
+      "MILES": 15.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "06-11-2016 12:00",
+      "END_DATE": "06-11-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 18.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "07-11-2016 14:30",
+      "END_DATE": "07-11-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 5.5,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "08-11-2016 10:30",
+      "END_DATE": "08-11-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 10.2,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "09-11-2016 12:30",
+      "END_DATE": "09-11-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Boynton Beach",
+      "MILES": 17.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "10-11-2016 13:00",
+      "END_DATE": "10-11-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Coconut Grove",
+      "MILES": 6.3,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "03-11-2016 12:00",
+      "END_DATE": "03-11-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Daytona Beach",
+      "STOP": "Palm Coast",
+      "MILES": 18.4,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "04-11-2016 13:30",
+      "END_DATE": "04-11-2016 14:00",
+      "CATEGORY": "Business",
+      "START": "Naples",
+      "STOP": "Marco Island",
+      "MILES": 23.2,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "05-11-2016 11:00",
+      "END_DATE": "05-11-2016 11:30",
+      "CATEGORY": "Personal",
+      "START": "Melbourne",
+      "STOP": "Cocoa Beach",
+      "MILES": 15.1,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "06-11-2016 12:00",
+      "END_DATE": "06-11-2016 12:30",
+      "CATEGORY": "Business",
+      "START": "Tampa",
+      "STOP": "Clearwater",
+      "MILES": 18.7,
+      "PURPOSE": "Meeting"
+    },
+    {
+      "START_DATE": "07-11-2016 14:30",
+      "END_DATE": "07-11-2016 15:00",
+      "CATEGORY": "Personal",
+      "START": "Orlando",
+      "STOP": "Winter Park",
+      "MILES": 5.5,
+      "PURPOSE": "Leisure"
+    },
+    {
+      "START_DATE": "08-11-2016 10:30",
+      "END_DATE": "08-11-2016 11:00",
+      "CATEGORY": "Business",
+      "START": "Fort Lauderdale",
+      "STOP": "Hollywood",
+      "MILES": 10.2,
+      "PURPOSE": "Client Visit"
+    },
+    {
+      "START_DATE": "09-11-2016 12:30",
+      "END_DATE": "09-11-2016 13:00",
+      "CATEGORY": "Business",
+      "START": "Palm Beach",
+      "STOP": "Boynton Beach",
+      "MILES": 17.5,
+      "PURPOSE": "Consulting"
+    },
+    {
+      "START_DATE": "10-11-2016 13:00",
+      "END_DATE": "10-11-2016 13:30",
+      "CATEGORY": "Business",
+      "START": "Miami",
+      "STOP": "Coconut Grove",
+      "MILES": 6.3,
+      "PURPOSE": "Meeting"
+    }
+  ]
+}
