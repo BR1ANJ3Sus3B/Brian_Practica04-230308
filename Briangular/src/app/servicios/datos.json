@@ -1,0 +1,585 @@
+[
+    {
+      "start_time": "01-01-2016 21:11",
+      "end_time": "01-01-2016 21:17",
+      "category": "Business",
+      "start_location": "Fort Pierce",
+      "end_location": "Fort Pierce",
+      "distance": 5.1,
+      "purpose": "Meal/Entertain"
+    },
+    {
+      "start_time": "01-02-2016 01:25",
+      "end_time": "01-02-2016 01:37",
+      "category": "Business",
+      "start_location": "Fort Pierce",
+      "end_location": "Fort Pierce",
+      "distance": 5,
+      "purpose": ""
+    },
+    {
+      "start_time": "01-02-2016 20:25",
+      "end_time": "01-02-2016 20:38",
+      "category": "Business",
+      "start_location": "Fort Pierce",
+      "end_location": "Fort Pierce",
+      "distance": 4.8,
+      "purpose": "Errand/Supplies"
+    },
+    {
+      "start_time": "01-05-2016 17:31",
+      "end_time": "01-05-2016 17:45",
+      "category": "Business",
+      "start_location": "Fort Pierce",
+      "end_location": "Fort Pierce",
+      "distance": 4.7,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-06-2016 14:42",
+      "end_time": "01-06-2016 15:49",
+      "category": "Business",
+      "start_location": "Fort Pierce",
+      "end_location": "West Palm Beach",
+      "distance": 63.7,
+      "purpose": "Customer Visit"
+    },
+    {
+      "start_time": "01-06-2016 17:15",
+      "end_time": "01-06-2016 17:19",
+      "category": "Business",
+      "start_location": "West Palm Beach",
+      "end_location": "West Palm Beach",
+      "distance": 4.3,
+      "purpose": "Meal/Entertain"
+    },
+    {
+      "start_time": "01-06-2016 17:30",
+      "end_time": "01-06-2016 17:35",
+      "category": "Business",
+      "start_location": "West Palm Beach",
+      "end_location": "Palm Beach",
+      "distance": 7.1,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-07-2016 13:27",
+      "end_time": "01-07-2016 13:33",
+      "category": "Business",
+      "start_location": "Cary",
+      "end_location": "Cary",
+      "distance": 0.8,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-10-2016 08:05",
+      "end_time": "01-10-2016 08:25",
+      "category": "Business",
+      "start_location": "Cary",
+      "end_location": "Morrisville",
+      "distance": 8.3,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-10-2016 12:17",
+      "end_time": "01-10-2016 12:44",
+      "category": "Business",
+      "start_location": "Jamaica",
+      "end_location": "New York",
+      "distance": 16.5,
+      "purpose": "Customer Visit"
+    },
+    {
+      "start_time": "01-10-2016 15:08",
+      "end_time": "01-10-2016 15:51",
+      "category": "Business",
+      "start_location": "New York",
+      "end_location": "Queens",
+      "distance": 10.8,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-10-2016 18:18",
+      "end_time": "01-10-2016 18:53",
+      "category": "Business",
+      "start_location": "Elmhurst",
+      "end_location": "New York",
+      "distance": 7.5,
+      "purpose": "Meeting"
+    },
+    {
+      "start_time": "01-10-2016 19:12",
+      "end_time": "01-10-2016 19:32",
+      "category": "Business",
+      "start_location": "Midtown",
+      "end_location": "East Harlem",
+      "distance": 6.2,
+      "purpose": "Meeting"
+    },
+    {
+        "start_time": "01-01-2016 21:11",
+        "end_time": "01-01-2016 21:17",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 5.1,
+        "purpose": "Meal/Entertain"
+      },
+      {
+        "start_time": "01-02-2016 01:25",
+        "end_time": "01-02-2016 01:37",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 5,
+        "purpose": ""
+      },
+      {
+        "start_time": "01-02-2016 20:25",
+        "end_time": "01-02-2016 20:38",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 4.8,
+        "purpose": "Errand/Supplies"
+      },
+      {
+        "start_time": "01-05-2016 17:31",
+        "end_time": "01-05-2016 17:45",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 4.7,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-06-2016 14:42",
+        "end_time": "01-06-2016 15:49",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "West Palm Beach",
+        "distance": 63.7,
+        "purpose": "Customer Visit"
+      },
+      {
+        "start_time": "01-06-2016 17:15",
+        "end_time": "01-06-2016 17:19",
+        "category": "Business",
+        "start_location": "West Palm Beach",
+        "end_location": "West Palm Beach",
+        "distance": 4.3,
+        "purpose": "Meal/Entertain"
+      },
+      {
+        "start_time": "01-06-2016 17:30",
+        "end_time": "01-06-2016 17:35",
+        "category": "Business",
+        "start_location": "West Palm Beach",
+        "end_location": "Palm Beach",
+        "distance": 7.1,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-07-2016 13:27",
+        "end_time": "01-07-2016 13:33",
+        "category": "Business",
+        "start_location": "Cary",
+        "end_location": "Cary",
+        "distance": 0.8,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-10-2016 08:05",
+        "end_time": "01-10-2016 08:25",
+        "category": "Business",
+        "start_location": "Cary",
+        "end_location": "Morrisville",
+        "distance": 8.3,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-10-2016 12:17",
+        "end_time": "01-10-2016 12:44",
+        "category": "Business",
+        "start_location": "Jamaica",
+        "end_location": "New York",
+        "distance": 16.5,
+        "purpose": "Customer Visit"
+      },  {
+        "start_time": "01-01-2016 21:11",
+        "end_time": "01-01-2016 21:17",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 5.1,
+        "purpose": "Meal/Entertain"
+      },
+      {
+        "start_time": "01-02-2016 01:25",
+        "end_time": "01-02-2016 01:37",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 5,
+        "purpose": ""
+      },
+      {
+        "start_time": "01-02-2016 20:25",
+        "end_time": "01-02-2016 20:38",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 4.8,
+        "purpose": "Errand/Supplies"
+      },
+      {
+        "start_time": "01-05-2016 17:31",
+        "end_time": "01-05-2016 17:45",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "Fort Pierce",
+        "distance": 4.7,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-06-2016 14:42",
+        "end_time": "01-06-2016 15:49",
+        "category": "Business",
+        "start_location": "Fort Pierce",
+        "end_location": "West Palm Beach",
+        "distance": 63.7,
+        "purpose": "Customer Visit"
+      },
+      {
+        "start_time": "01-06-2016 17:15",
+        "end_time": "01-06-2016 17:19",
+        "category": "Business",
+        "start_location": "West Palm Beach",
+        "end_location": "West Palm Beach",
+        "distance": 4.3,
+        "purpose": "Meal/Entertain"
+      },
+      {
+        "start_time": "01-06-2016 17:30",
+        "end_time": "01-06-2016 17:35",
+        "category": "Business",
+        "start_location": "West Palm Beach",
+        "end_location": "Palm Beach",
+        "distance": 7.1,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-07-2016 13:27",
+        "end_time": "01-07-2016 13:33",
+        "category": "Business",
+        "start_location": "Cary",
+        "end_location": "Cary",
+        "distance": 0.8,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-10-2016 08:05",
+        "end_time": "01-10-2016 08:25",
+        "category": "Business",
+        "start_location": "Cary",
+        "end_location": "Morrisville",
+        "distance": 8.3,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "01-10-2016 12:17",
+        "end_time": "01-10-2016 12:44",
+        "category": "Business",
+        "start_location": "Jamaica",
+        "end_location": "New York",
+        "distance": 16.5,
+        "purpose": "Customer Visit"
+      },
+      {
+        "start_time": "02-14-2016 14:07",
+        "end_time": "02-14-2016 14:40",
+        "category": "Business",
+        "start_location": "East Elmhurst",
+        "end_location": "New York",
+        "distance": 8.1,
+        "purpose": "Meeting"
+      },
+      {
+        "start_time": "02-14-2016 14:46",
+        "end_time": "02-14-2016 15:03",
+        "category": "Business",
+        "start_location": "Midtown",
+        "end_location": "Midtown West",
+        "distance": 2,
+        "purpose": "Meeting"
+      }, {
+        "start_time": "4/19/2016 19:57",
+        "end_time": "4/19/2016 20:19",
+        "category": "Business",
+        "from": "Wayne Ridge",
+        "to": "Whitebridge",
+        "distance": 8,
+        "type": "Meal/Entertain"
+      },
+      {
+        "start_time": "4/22/2016 8:25",
+        "end_time": "4/22/2016 9:04",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Raleigh",
+        "distance": 13.6,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "4/22/2016 10:10",
+        "end_time": "4/22/2016 10:40",
+        "category": "Business",
+        "from": "Raleigh",
+        "to": "Cary",
+        "distance": 22.5,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "4/22/2016 12:08",
+        "end_time": "4/22/2016 12:28",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 10.4,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "4/22/2016 13:02",
+        "end_time": "4/22/2016 13:26",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 10,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "4/23/2016 17:03",
+        "end_time": "4/23/2016 17:16",
+        "category": "Business",
+        "from": "Whitebridge",
+        "to": "Tanglewood",
+        "distance": 6,
+        "type": "Meal/Entertain"
+      },
+      {
+        "start_time": "4/23/2016 18:49",
+        "end_time": "4/23/2016 19:05",
+        "category": "Business",
+        "from": "Tanglewood",
+        "to": "Whitebridge",
+        "distance": 6.5,
+        "type": "Meal/Entertain"
+      },{
+        "start_time": "6/27/2016 13:56",
+        "end_time": "6/27/2016 14:05",
+        "category": "Business",
+        "from": "Metairie",
+        "to": "Kenner",
+        "distance": 4.4,
+        "type": ""
+      },
+      {
+        "start_time": "6/27/2016 21:09",
+        "end_time": "6/27/2016 21:19",
+        "category": "Business",
+        "from": "Jamestown Court",
+        "to": "Jamestown Court",
+        "distance": 1,
+        "type": ""
+      },
+      {
+        "start_time": "6/28/2016 0:48",
+        "end_time": "6/28/2016 1:05",
+        "category": "Business",
+        "from": "Morrisville",
+        "to": "Cary",
+        "distance": 8.2,
+        "type": "Customer Visit"
+      },
+      {
+        "start_time": "6/28/2016 20:13",
+        "end_time": "6/28/2016 20:33",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 10.4,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "6/28/2016 23:34",
+        "end_time": "6/28/2016 23:59",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "6/28/2016 23:34",
+        "end_time": "6/28/2016 23:59",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "6/29/2016 8:56",
+        "end_time": "6/29/2016 9:24",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Morrisville",
+        "distance": 7.3,
+        "type": ""
+      },
+      {
+        "start_time": "6/29/2016 10:22",
+        "end_time": "6/29/2016 10:38",
+        "category": "Business",
+        "from": "Morrisville",
+        "to": "Cary",
+        "distance": 7.4,
+        "type": ""
+      },
+      {
+        "start_time": "6/29/2016 11:49",
+        "end_time": "6/29/2016 11:51",
+        "category": "Business",
+        "from": "Whitebridge",
+        "to": "Westpark Place",
+        "distance": 1.6,
+        "type": ""
+      },
+      {
+        "start_time": "6/29/2016 12:11",
+        "end_time": "6/29/2016 12:16",
+        "category": "Business",
+        "from": "Westpark Place",
+        "to": "Whitebridge",
+        "distance": 1.8,
+        "type": ""
+      },
+      {
+        "start_time": "6/29/2016 20:11",
+        "end_time": "6/29/2016 20:29",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 10.4,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "6/29/2016 23:38",
+        "end_time": "6/30/2016 0:00",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "6/30/2016 20:09",
+        "end_time": "6/30/2016 20:26",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-01-2016 00:00",
+        "end_time": "07-01-2016 00:25",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-01-2016 09:34",
+        "end_time": "07-01-2016 09:57",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Raleigh",
+        "distance": 13.3,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-01-2016 12:36",
+        "end_time": "07-01-2016 13:00",
+        "category": "Business",
+        "from": "Raleigh",
+        "to": "Cary",
+        "distance": 11.3,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-01-2016 20:06",
+        "end_time": "07-01-2016 20:24",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 10.5,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-01-2016 23:48",
+        "end_time": "07-02-2016 00:09",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-02-2016 20:18",
+        "end_time": "07-02-2016 20:36",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 10.1,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-02-2016 23:48",
+        "end_time": "07-03-2016 00:12",
+        "category": "Business",
+        "from": "Durham",
+        "to": "Cary",
+        "distance": 9.9,
+        "type": "Meeting"
+      },
+      {
+        "start_time": "07-03-2016 00:28",
+        "end_time": "07-03-2016 00:38",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Morrisville",
+        "distance": 3.1,
+        "type": "Errand/Supplies"
+      },
+      {
+        "start_time": "07-03-2016 03:02",
+        "end_time": "07-03-2016 03:08",
+        "category": "Business",
+        "from": "Morrisville",
+        "to": "Cary",
+        "distance": 3.1,
+        "type": "Errand/Supplies"
+      },
+      {
+        "start_time": "07-03-2016 20:00",
+        "end_time": "07-03-2016 20:18",
+        "category": "Business",
+        "from": "Cary",
+        "to": "Durham",
+        "distance": 9.9,
+        "type": "Meeting"
+      }
+  ]
+  
