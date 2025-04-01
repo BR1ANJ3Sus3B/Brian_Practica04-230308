@@ -35,7 +35,19 @@ export class SidebarComponent {
         return 'En este ejercicio, aprenderás cómo interceptar solicitudes HTTP y respuestas a través de los HttpInterceptor. Verás cómo agregar encabezados, manejar errores globalmente y realizar tareas comunes en todas las peticiones, como la autenticación o la gestión de sesiones.';
       case 'Ejercicio 12': 
         return 'Este ejercicio introduce el concepto de animaciones en Angular. Aprenderás a crear transiciones visuales entre vistas y elementos DOM utilizando el módulo @angular/animations. Conocerás las animaciones de entrada y salida, así como las animaciones de cambio de estado.';
-      default:
+        case 'Ejercicio 13':
+          return 'Este ejercicio cubre el uso de módulos en Angular. Aprenderás a dividir la aplicación en módulos reutilizables y a cargar módulos dinámicamente para mejorar la organización y el rendimiento de la aplicación.';
+        case 'Ejercicio 14':
+          return 'En este ejercicio, explorarás Lazy Loading en Angular, una técnica para cargar módulos bajo demanda y optimizar el rendimiento de la aplicación.';
+        case 'Ejercicio 15':
+          return 'Aprenderás a crear y gestionar Pipes en Angular para transformar y formatear datos dentro de las plantillas de manera eficiente.';
+        case 'Ejercicio 16':
+          return 'Este ejercicio cubre la implementación de autenticación y autorización en Angular, utilizando JWT para gestionar sesiones de usuario.';
+        case 'Ejercicio 17':
+          return 'Profundizarás en el uso de Guards y Resolvers para proteger rutas y precargar datos antes de cargar componentes.';
+        case 'Ejercicio 18':
+          return 'Aprenderás sobre las pruebas unitarias en Angular utilizando Jasmine y Karma para asegurar la calidad del código.';
+        default:
         return 'Selecciona un ejercicio (desde el navbar) para ver el mensaje.';
     }
   }

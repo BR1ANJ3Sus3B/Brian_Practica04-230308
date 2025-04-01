@@ -1,19 +1,20 @@
 <nav class="navbar">
   <div class="navbar-container">
     <!-- Sección izquierda: Logo y enlaces -->
-    <button class="sidebar-toggle-btn" (click)="toggleSidebar()">
+    <button class="sidebar-toggle-btn" (click)="toggleSidebar()" aria-label="Toggle Sidebar">
       <i class="fas fa-bars"></i> <!-- Icono de hamburguesa -->
     </button>
 
     <div class="navbar-left">
-      <a href="#" class="brand">
+      <a href="#" class="brand" aria-label="Ir a inicio">
         <i class="fas fa-home"></i> BRinJeSus
       </a>
       
       <ul class="nav-menu">
         <li><a href="#">Inicio</a></li>
+        
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle">
+          <a href="#" class="dropdown-toggle" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-dumbbell"></i> Ejercicios
           </a>
           <!-- Menú desplegable para ejercicios -->
@@ -29,27 +30,48 @@
             <li><a (click)="selectExercise('Ejercicio 09')">Ejercicio 09</a></li>
             <li><a (click)="selectExercise('Ejercicio 10')">Ejercicio 10</a></li>
             <li><a (click)="selectExercise('Ejercicio 11')">Ejercicio 11</a></li>
-            <li><a (click)="selectExercise('Basic')">Tablas compañeros</a></li>
-            <li><a (click)="selectExercise('basic-graf')">Gráfica Basica</a></li>
-            <li><a (click)="selectExercise('graphic-population-pyramid')">Population Pyramid</a></li>
-            <li><a (click)="selectExercise('ajax')">Tabla AJAX</a></li>
-            <li><a (click)="selectExercise('ajax-grap')">Gráfica AJAX</a></li>
-            <li><a (click)="selectExercise('json')">Tabla Json</a></li>
-            <li><a (click)="selectExercise('json-gra')">Gráfica Json</a></li>
+            <li><a (click)="selectExercise('Ejercicio 12')">Ejercicio 12</a></li>
+            <li><a (click)="selectExercise('Ejercicio 13')">Ejercicio 13</a></li>
+            <li><a (click)="selectExercise('Ejercicio 14')">Ejercicio 14</a></li>
+            <li><a (click)="selectExercise('Ejercicio 15')">Ejercicio 15</a></li>
+            <li><a (click)="selectExercise('Ejercicio 16')">Ejercicio 16</a></li>
+            <li><a (click)="selectExercise('Ejercicio 17')">Ejercicio 17</a></li>
+            <li><a (click)="selectExercise('Ejercicio 18')">Ejercicio 18</a></li>
           </ul>
         </li>
+
+        <li class="dropdown">
+          <button class="text-blue-800 font-semibold" (click)="toggleTablasMenu()" [attr.aria-expanded]="isTablasOpen ? 'true' : 'false'" aria-label="Mostrar tareas">
+            Tareas 
+          </button>
+          <div *ngIf="isTablasOpen" class="absolute left-0 mt-2 w-48 bg-gradient-to-r from-blue-100 via-purple-200 to-blue-300 shadow-md rounded-md p-2">
+            <ul>
+              <li><a (click)="selectExercise('Basic')">Tablas compañeros</a></li>
+              <li><a (click)="selectExercise('basic-graf')">Gráfica Básica</a></li>
+              <li><a (click)="selectExercise('graphic-population-pyramid')">Piramide Poblacional</a></li>
+              <li><a (click)="selectExercise('ajax')">Tabla AJAX</a></li>
+              <li><a (click)="selectExercise('ajax-grap')">Gráfica AJAX</a></li>
+              <li><a (click)="selectExercise('json')">Tabla JSON</a></li>
+              <li><a (click)="selectExercise('json-gra')">Gráfica JSON</a></li>
+            </ul>
+          </div>
+        </li>
+        <li class="dropdown">
+          <button class="text-blue-800 font-semibold" (click)="toggleTablasMenu()" [attr.aria-expanded]="isTablasOpen ? 'true' : 'false'" aria-label="Mostrar tareas">
+            Examen
+          </button>
         <li><a href="#">Contacto</a></li>
         <li><a href="#">Acerca de</a></li>
       </ul>
     </div>
-    
+
     <!-- Sección derecha: Información del usuario y logout -->
     <div class="navbar-right">
       <div class="user-info">
-        <img src="data:image/webp;base64,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" alt="Perfil de usuario" class="user-image">
+        <img src="data:image/webp;base64,UklGRuARAABXRUJQVlA4TNQ..." alt="Perfil de usuario" class="user-image">
         <span class="user-name">Brian Jesus Mendoza Marquez</span>
       </div>
-      <button class="logout-btn" (click)="onLogout()">
+      <button class="logout-btn" (click)="onLogout()" aria-label="Cerrar sesión">
         <i class="fas fa-sign-out-alt"></i> Salir
       </button>
     </div>

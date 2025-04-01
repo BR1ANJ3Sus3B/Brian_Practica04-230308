@@ -40,7 +40,7 @@ export class AjaxGraphicComponent implements OnInit, OnDestroy {
     this.loading = true;
     this.error = '';
     
-    this.http.get('http://127.0.0.1:3000/sessions')
+    this.http.get('http://localhost:3000/sessions')
       .subscribe({
         next: (response: any) => {
           console.log('API Response:', response);

@@ -11,6 +11,14 @@ import { Ejercicio08Component } from '../../ejercicio08/ejercicio08.component';
 import { Ejercicio09Component } from '../../ejercicio09/ejercicio09.component';
 import { Ejercicio10Component } from '../../ejercicio10/ejercicio10.component';
 import { Ejercicio11Component } from '../../ejercicio11/ejercicio11.component';
+import { Ejercicio12Component } from '../../ejercicio-12/ejercicio-12.component';
+import { Ejercicio13Component } from '../../ejercicio-13/ejercicio-13.component';
+import { Ejercicio14Component } from '../../ejercicio-14/ejercicio-14.component';
+import { Ejercicio15Component } from '../../ejercicio-15/ejercicio-15.component';
+import { Ejercicio16Component } from '../../ejercicio-16/ejercicio-16.component';
+import { Ejercicio17Component } from '../../ejercicio-17/ejercicio-17.component';
+import { Ejercicio18Component } from '../../ejercicio-18/ejercicio-18.component';
+
 import { BasicDatatableComponent } from '../../basic-datatable/basic-datatable.component';
 
 import { LoginComponent } from '../login/login.component';
@@ -37,6 +45,14 @@ import { JsonGraphicComponent } from '../../json-graphic/json-graphic.component'
     Ejercicio09Component,
     Ejercicio10Component,
     Ejercicio11Component,
+    Ejercicio12Component,
+    Ejercicio13Component,
+    Ejercicio14Component,
+    Ejercicio15Component,
+    Ejercicio16Component,
+    Ejercicio17Component,
+    Ejercicio18Component,
+    
     
     LoginComponent,BasicDatatableComponent,
     BasicGraphicComponent,GraphicPopulationPyramidComponent,

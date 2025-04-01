@@ -55,13 +55,11 @@ export class AjaxTableComponent implements OnInit {
     this.loading = true;
     this.error = '';
     
-    this.http.get('http://127.0.0.1:3000/sessions')
+    this.http.get('http://localhost:3500/allSessions')
       .subscribe({
         next: (response: any) => {
           console.log('API Response:', response); // Debug log
-          if (response && Array.isArray(response)) {
-            this.sessions = response;
-          } else if (response && Array.isArray(response.sessions)) {
+          if (response && Array.isArray(response.sessions)) {
             this.sessions = response.sessions;
           } else {
             this.error = 'Invalid data format received';

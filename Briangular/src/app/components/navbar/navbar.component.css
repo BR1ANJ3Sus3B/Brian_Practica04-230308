@@ -1,9 +1,11 @@
+/* Eliminar margen y padding por defecto */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Barra de navegación */
 .navbar {
   position: fixed;
   top: 0;
@@ -39,6 +41,7 @@
   text-decoration: none;
 }
 
+/* Menú de navegación */
 .nav-menu {
   list-style: none;
   display: flex;
@@ -64,7 +67,9 @@
   color: #78cfec;
 }
 
-.dropdown:hover .dropdown-menu {
+/* Menús desplegables */
+.dropdown:hover .dropdown-menu,
+.tasks-dropdown:hover .dropdown-menu { /* Aplica la misma animación a tareas */
   display: block;
 }
 
@@ -78,6 +83,7 @@
   list-style: none;
   padding: 10px 0;
   border-radius: 4px;
+  width: 200px;
 }
 
 .dropdown-menu li {
@@ -88,6 +94,7 @@
   display: block;
   padding: 8px 20px;
   color: #A8BA9A;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .dropdown-menu a:hover {
@@ -95,6 +102,7 @@
   color: #ACE894;
 }
 
+/* Sección de usuario en la barra de navegación */
 .navbar-right {
   display: flex;
   align-items: center;
